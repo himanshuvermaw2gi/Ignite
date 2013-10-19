@@ -1,0 +1,9 @@
+language: node_js
+before_script:
+     - "npm install -g se-interpreter"
+script:
+     - "se-interpreter Interpreter_config.json"
+
+sauce_connect:
+    username: "himanshuverma"
+    secure: "eda5a7cc-ff62-4b62-9d2a-d78d54d582de"
