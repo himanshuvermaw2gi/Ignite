@@ -32,7 +32,7 @@
     },
 		{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -47,17 +47,13 @@
         "type": "css selector",
         "value": "input[type=\"text\"]"
       },
-      "text": "test12"
-    },
-    {
-      "type": "pause",
-      "waitTime": "5000"
+      "text": "dennys"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "accounts_chzn_o_258"
+        "type": "css selector",
+        "value": "#accounts_chzn_o_77 > em"
       }
     },
     {
@@ -67,26 +63,26 @@
         "value": "change_account"
       }
     },
-    {
+		{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "img[alt=\"Sites\"]"
+        "value": "img[alt=\"Leads\"]"
       }
     },
 		{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "add_template"
+        "type": "link text",
+        "value": "Add New Campaign"
       }
     },
 		{
@@ -96,61 +92,103 @@
     {
       "type": "setElementText",
       "locator": {
-        "type": "css selector",
-        "value": "input[name=\"name\"]"
+        "type": "id",
+        "value": "longnameInput"
       },
-      "text": "test009"
+      "text": "manas123"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "shortNameInput"
+      },
+      "text": "masas012"
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//table[@id='detail_table']/tbody/tr[4]/td[2]/select//option[4]"
+        "value": "//div[@id='editCampTable']/table[1]/tbody/tr[4]/td[2]/select//option[4]"
+      }
+    },
+		{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='editCampTable']/table[1]/tbody/tr[5]/td[2]/select//option[2]"
+      }
+    },
+		{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "sdButton"
+      }
+    },
+		{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "edButton"
       }
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "id",
-        "value": "defaulttemplate"
+        "value": "uselocator"
+      }
+    },
+		{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//td[@id='campEmailCol']/select//option[13]"
       }
     },
     {
       "type": "setElementText",
       "locator": {
-        "type": "name",
-        "value": "templatedirectory"
+        "type": "id",
+        "value": "codeInput"
       },
-      "text": "/home/desktop"
+      "text": "panalink"
     },
     {
-      "type": "setElementText",
-      "locator": {
-        "type": "name",
-        "value": "templatefile"
-      },
-      "text": "/home/login.txt"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "name",
-        "value": "hosturl"
-      },
-      "text": "https://www.google.com"
-    },
-    {
-      "type": "clickElement",
+      "type": "setElementSelected",
       "locator": {
         "type": "id",
-        "value": "submit_button"
+        "value": "dbOptInput"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lightwindow_title_bar_close_link"
+        "value": "editCampSubmit"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "editCampSubmit"
       }
     }
   ]
