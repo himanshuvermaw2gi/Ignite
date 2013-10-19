@@ -17,7 +17,7 @@
         }
       ],
       "scripts": [
-        "Launchpad-MenuBar"
+        "Launchapd-MenuBar/*"
       ]
     }
   ]
