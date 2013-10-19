@@ -1,0 +1,185 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://ignite.where2stageit.com/login.html"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "loginid"
+      },
+      "text": "qa_tester"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      },
+      "text": "Where2getit!"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "submit"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "b"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "accounts_chzn_o_0"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "btn-select-account"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"Reputation\"]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+  {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@id='SourceSelection']/li[1]/span"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "prevSlice"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "nextSlice"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@id='SourceSelection']//span[normalize-space(.)='Yelp']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@id='SourceSelection']/li[3]/span"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@id='SourceSelection']/li[4]/span"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@id='SourceSelection']/li[5]/span"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Reviewer"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Location Name"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "City & State"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Review"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Rating"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Review Date"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Last 25"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Next 25"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Displaying 1-0 of 0"
+    },
+    {
+      "type": "verifyElementValue",
+      "locator": {
+        "type": "id",
+        "value": "sliceSelect"
+      },
+      "value": "25"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Back to Launchpad"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Back to Launchpad"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "logout-button"
+      }
+    }
+  ]
+}
