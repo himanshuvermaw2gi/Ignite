@@ -8,10 +8,10 @@
             "host": "ondemand.saucelabs.com",
             "port": 80
           },
-          "browserOptions": "{
+          "browserOptions": {
             "browserName": "firefox",
-            "username": "w2gi",
-            "accessKey": "202ec8fe-2b54-44eb-a1c4-bf7fb1be2052",
+            "username": "himanshuverma",
+            "accessKey": "eda5a7cc-ff62-4b62-9d2a-d78d54d582de",
             "os"       : "windows xp"
           }
         }
