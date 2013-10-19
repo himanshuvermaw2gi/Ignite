@@ -310,6 +310,10 @@
         "value": "//div[@class='channel-product-wrapper']/div[4]/table/tbody/tr[6]/td[1]/input"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
     {
       "type": "setElementNotSelected",
       "locator": {
