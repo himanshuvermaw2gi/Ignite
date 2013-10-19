@@ -1,0 +1,24 @@
+{
+  "type": "interpreter-config",
+  "configurations": [
+    {
+      "settings": [
+        {
+          "driverOptions": {
+            "host": "ondemand.saucelabs.com",
+            "port": 80
+          },
+          "browserOptions": "{
+            "browserName": "firefox",
+            "username": "w2gi",
+            "accessKey": "202ec8fe-2b54-44eb-a1c4-bf7fb1be2052",
+            "os"       : "windows xp"
+          }
+        }
+      ],
+      "scripts": [
+        "Available_channel.json"
+      ]
+    }
+  ]
+}
