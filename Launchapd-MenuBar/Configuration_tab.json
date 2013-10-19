@@ -1,0 +1,188 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://ignite.where2stageit.com/login.html"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "loginid"
+      },
+      "text": "qa_tester"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      },
+      "text": "Where2getit!"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "submit"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "b"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "accounts_chzn_o_0"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "btn-select-account"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"Reputation\"]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Configuration"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Negative Review Threshold"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "View Subscribers"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Email Alert"
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='ReviewTable']/div[3]/table/tbody/tr[2]/td[2]/select//option[5]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='ReviewTable']/div[3]/table/tbody/tr[3]/td[2]/select//option[5]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='ReviewTable']/div[3]/table/tbody/tr[4]/td[2]/select//option[5]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='ReviewTable']/div[3]/table/tbody/tr[6]/td[2]/select//option[5]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Google+ Local"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Yelp"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Yahoo!"
+    },
+    
+    {
+      "type": "verifyTextPresent",
+      "text": "Facebook"
+    },
+    {
+      "type": "verifyElementValue",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='ReviewTable']/div[3]/table/tfoot/tr/td/input"
+      },
+      "value": "Save Changes"
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    
+   {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Back to Review Monitor"
+      }
+    },
+     {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Back to Launchpad"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "logout-button"
+      }
+    }
+  ]
+}
