@@ -77,6 +77,10 @@
         "value": "div.s-tab > p > strong"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
     {
       "type": "setElementSelected",
       "locator": {
