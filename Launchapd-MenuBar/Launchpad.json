@@ -1,0 +1,129 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://ignite.where2stageit.com/login.html"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "loginid"
+      },
+      "text": "qa_tester"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      },
+      "text": "Where2getit!"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "submit"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "b"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "accounts_chzn_o_0"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "btn-select-account"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Launchpad"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Total Channel Performance Across Time"
+    },
+    {
+      "type": "verifyElementValue",
+      "locator": {
+        "type": "id",
+        "value": "change-chart"
+      },
+      "value": "Switch to Pie Chart"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Channels Performance"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Channels"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Page Views"
+    },
+   
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+   
+    {
+      "type": "verifyTextPresent",
+      "text": "Location Data Quality Summary"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Website"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Missing Locations"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Bad Addresses"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Bad Phone Numbers"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Poor Geocodes"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Duplicates"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Reviews and Ratings"
+    }
+  ]
+}
