@@ -17,7 +17,7 @@
         }
       ],
       "scripts": [
-        "Available_channel.json"
+        "sample/*"
       ]
     }
   ]
