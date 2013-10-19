@@ -1,0 +1,175 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://ignite.where2stageit.com/login.html"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "loginid"
+      },
+      "text": "qa_tester"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      },
+      "text": "Where2getit!"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "submit"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"Reputation\"]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Filter by Ratings:"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "1"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "2"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "3"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "4"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "5"
+    },
+    
+    {
+      "type": "verifyElementValue",
+      "locator": {
+        "type": "id",
+        "value": "SearchKeyword"
+      },
+      "value": ""
+    },
+    {
+      "type": "verifyElementValue",
+      "locator": {
+        "type": "id",
+        "value": "SearchKeywordBtn"
+      },
+      "value": "Search"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.Button.advancedSearchBtn"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "label > input[type=\"text\"]"
+      },
+      "text": "01126198232"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[2]/input"
+      },
+      "text": "India"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[3]/input"
+      },
+      "text": "Japan"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[4]/input"
+      },
+      "text": "Airtel"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[5]/input"
+      },
+      "text": "rajendra"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[6]/input"
+      },
+      "text": "New Delhi"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[7]/input"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[9]/input"
+      },
+      "text": "active"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[10]/input"
+      },
+      "text": "110076"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.Button.btn-search"
+      }
+    }
+  ]
+}
