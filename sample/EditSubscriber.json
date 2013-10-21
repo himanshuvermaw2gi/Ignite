@@ -122,18 +122,18 @@
     },
 		 {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "7000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "edit_lead_button"
+        "type": "xpath",
+        "value": "//*[@id='edit_lead_button']"
       }
     },
 		 {
       "type": "pause",
-      "waitTime": "7000"
+      "waitTime": "5000"
     }
   ]
 }
