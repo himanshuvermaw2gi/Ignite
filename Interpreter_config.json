@@ -17,7 +17,7 @@
         }
       ],
       "scripts": [
-        "sample/AddNewMessage(withSkip).json"
+        "sample/AddNewSubscriber.json"
       ]
     }
   ]
