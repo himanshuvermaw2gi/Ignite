@@ -30,7 +30,7 @@
         "value": "submit"
       }
     },
-		{
+		 {
       "type": "pause",
       "waitTime": "5000"
     },
@@ -63,9 +63,9 @@
         "value": "change_account"
       }
     },
-		{
+		 {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -74,7 +74,7 @@
         "value": "img[alt=\"Leads\"]"
       }
     },
-		{
+		 {
       "type": "pause",
       "waitTime": "3000"
     },
@@ -85,7 +85,7 @@
         "value": "NotActiveTab"
       }
     },
-    	{
+		 {
       "type": "pause",
       "waitTime": "5000"
     },
@@ -93,19 +93,15 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='leads']//a[.='Download']"
+        "value": "//div[@id='leads']//a[.='Edit this Campaign']"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='leads']//a[.='XLS']"
+        "type": "id",
+        "value": "editCampSubmit"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "7000"
     }
   ]
 }
