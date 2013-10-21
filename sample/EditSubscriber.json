@@ -30,7 +30,7 @@
         "value": "submit"
       }
     },
-		 {
+    {
       "type": "pause",
       "waitTime": "5000"
     },
@@ -63,21 +63,11 @@
         "value": "change_account"
       }
     },
-		 {
-      "type": "pause",
-      "waitTime": "3000"
-    },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "img[alt=\"Leads\"]"
-      }
-    },
-		 {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
+    
     {
       "type": "clickElement",
       "locator": {
@@ -85,16 +75,20 @@
         "value": "NotActiveTab"
       }
     },
-		 {
-      "type": "pause",
-      "waitTime": "3000"
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#leads > #leadsTable > tbody > tr.body_display_row > td.centered_row > a.SmallLeftEndGrayButton"
+      }
     },
-    
-    	 {
-      "type": "pause",
-      "waitTime": "7000"
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#edit_lead_button"
+      }
     },
-   
     {
       "type": "clickElement",
       "locator": {
@@ -102,32 +96,24 @@
         "value": "//div[@id='leads']/table/tbody/tr[2]/td[1]/a[1]"
       }
     },
-		 {
-      "type": "pause",
-      "waitTime": "3000"
-    },
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "address1_input"
       },
-      "text": "test23"
-    },
-		 {
-      "type": "pause",
-      "waitTime": "7000"
+      "text": "test"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "#leads > #leadsTable > tbody > tr.body_display_row > td.centered_row > a.SmallLeftEndGrayButton"
+        "type": "css selector",
+        "value": "#edit_lead_form > #edit_lead_form_inputs > tfoot > tr > td.centered_row > ul.liInlineBlock > li > #edit_lead_button"
       }
     },
-		 {
+    {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     }
   ]
 }
