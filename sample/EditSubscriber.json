@@ -97,12 +97,20 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "5000"
+    }
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
         "value": "#edit_lead_button"
       }
     },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    }
     {
       "type": "clickElement",
       "locator": {
