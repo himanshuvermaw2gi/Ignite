@@ -17,7 +17,7 @@
         }
       ],
       "scripts": [
-        "sample/StartandEndCampaign.json"
+        "sample/Leadmenuload.json"
       ]
     }
   ]
