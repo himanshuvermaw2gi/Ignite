@@ -127,8 +127,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#edit_lead_button"
+        "type": "id",
+        "value": "edit_lead_button"
       }
     },
 		 {
