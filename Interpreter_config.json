@@ -17,7 +17,7 @@
         }
       ],
       "scripts": [
-        "sample/Downloadtab.json.json"
+        "sample/Downloadtab.json"
       ]
     }
   ]
