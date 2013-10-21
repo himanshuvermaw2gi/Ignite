@@ -102,6 +102,10 @@
         "type": "id",
         "value": "editCampSubmit"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "5000"
     }
   ]
 }
