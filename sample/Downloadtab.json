@@ -102,6 +102,10 @@
         "type": "xpath",
         "value": "//div[@id='leads']//a[.='XLS']"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     }
   ]
 }
