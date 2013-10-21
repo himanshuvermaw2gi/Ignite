@@ -31,6 +31,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -60,11 +64,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
         "value": "img[alt=\"Leads\"]"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -80,7 +92,10 @@
         "value": "//div[@id='leads']//a[.='Edit this Campaign']"
       }
     },
-		
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },		
 		
     {
       "type": "clickElement",
