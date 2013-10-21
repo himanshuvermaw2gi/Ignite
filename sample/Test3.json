@@ -261,9 +261,7 @@
         "value": "saveDynMessage"
       }
     },
-    {
-      "type": "acceptAlert"
-    },
+   
     {
       "type": "clickElement",
       "locator": {
