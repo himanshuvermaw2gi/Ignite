@@ -52,8 +52,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "accounts_chzn_o_77"
+        "type": "css selector",
+        "value": "#accounts_chzn_o_77 > em"
       }
     },
     {
@@ -65,7 +65,7 @@
     },
 		{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -85,15 +85,18 @@
         "value": "NotActiveTab"
       }
     },
-		{
-      "type": "pause",
-      "waitTime": "5000"
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='leads']//a[.='Download']"
+      }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#leads > #leadsTable > tbody > tr.body_display_row > td.centered_row > a.SmallRightEndGrayButton"
+        "type": "xpath",
+        "value": "//div[@id='leads']//a[.='XLS']"
       }
     }
   ]
