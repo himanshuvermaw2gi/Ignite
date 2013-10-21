@@ -30,7 +30,7 @@
         "value": "submit"
       }
     },
-		 {
+		{
       "type": "pause",
       "waitTime": "5000"
     },
@@ -63,9 +63,9 @@
         "value": "change_account"
       }
     },
-		 {
+		{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -74,123 +74,130 @@
         "value": "img[alt=\"Leads\"]"
       }
     },
-		 {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Add New Message"
-      }
-    },
-		 {
+		{
       "type": "pause",
       "waitTime": "3000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "sms_title"
-      },
-      "text": "test mail23ds"
-    },
-		 {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "messageSubject"
-      },
-      "text": "urgent123"
-    },
-		 {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "messageReplyTo"
-      },
-      "text": "riyer@where2gitit.com"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "messageFromName"
-      },
-      "text": "Himanshu"
-    },
-		 {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "messageFrom"
-      },
-      "text": "himanshu@panalinks.com"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "start_slide_next"
+        "value": "Subscribers"
       }
     },
-		 {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "btnSkipSchedule"
-      }
-    },
-		 {
+		{
       "type": "pause",
       "waitTime": "3000"
     },
     {
-      "type": "sendKeysToElement",
+      "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//html/body"
-      },
-      "text": "this is a test mail."
+        "value": "//div[@id='leads']//td[.='+ Add New Subscriber']"
+      }
     },
-		 {
+		{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "firstname_input"
+      },
+      "text": "test_manas "
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "lastname_input"
+      },
+      "text": "panalink01"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "city_input"
+      },
+      "text": "florida"
+    },
+		{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='add_lead_form']/table/tbody/tr[9]/td[2]/select//option[234]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='add_lead_form']/table/tbody/tr[9]/td[2]/select//option[236]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='add_lead_form']/table/tbody/tr[9]/td[2]/select//option[236]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='add_lead_form']/table/tbody/tr[9]/td[2]/select//option[236]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='add_lead_form']/table/tbody/tr[9]/td[2]/select//option[236]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='add_lead_form']/table/tbody/tr[9]/td[2]/select//option[236]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='add_lead_form']/table/tbody/tr[9]/td[2]/select//option[238]"
+      }
+    },
+		{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "postalcode_input"
+      },
+      "text": "33190"
+    },
+		{
       "type": "pause",
       "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "editMessageSubmit"
-      }
-    },
-    	 {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
+        "type": "css selector",
+        "value": "#add_lead_button"
       }
     }
   ]
