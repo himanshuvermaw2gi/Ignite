@@ -31,6 +31,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -60,11 +64,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
         "value": "img[alt=\"Leads\"]"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -81,6 +93,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
@@ -93,6 +109,10 @@
         "type": "id",
         "value": "fieldsMaxMin"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "setElementText",
@@ -108,6 +128,10 @@
         "type": "id",
         "value": "fieldEditButton"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -132,6 +156,10 @@
       "text": "101"
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
@@ -146,11 +174,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
         "value": "//li[@id='messageCell']/select//option[19]"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -160,11 +196,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "editCampSubmit"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     }
   ]
 }
