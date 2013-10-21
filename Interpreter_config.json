@@ -17,7 +17,7 @@
         }
       ],
       "scripts": [
-        "sample/EditSubscriber.json"
+        "sample/StartandEndCampaign.json"
       ]
     }
   ]
