@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-    {
+		{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -65,7 +65,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -73,74 +73,6 @@
         "type": "css selector",
         "value": "img[alt=\"Leads\"]"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "NotActiveTab"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='leads']//a[.='Edit this Campaign']"
-      }
-    },
-{
-      "type": "pause",
-      "waitTime": "3000"
-    },		
-		
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "campSubmit"
-      }
-    },
-		{
-		"type" : "acceptAlert"
-		},
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "editCampSubmit"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "campSubmit"
-      }
-    },
-		{
-		"type" : "acceptAlert"
-		},
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "editCampSubmit"
-      }
-    },
-		{
-		"type" : "acceptAlert"
-		},
-		{
-      "type": "pause",
-      "waitTime": "7000"
     }
   ]
 }
