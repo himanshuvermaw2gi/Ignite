@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-    {
+		{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -63,9 +63,9 @@
         "value": "change_account"
       }
     },
-    {
+		{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -74,33 +74,26 @@
         "value": "img[alt=\"Leads\"]"
       }
     },
+		{
+      "type": "pause",
+      "waitTime": "4000"
+    },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "NotActiveTab"
+      }
+    },
+		{
       "type": "pause",
       "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "td.camp_row_title_active > a.SmallLeftEndGrayButton"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "uselocator"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
         "type": "xpath",
-        "value": "//td[@id='campEmailCol']/select//option[14]"
+        "value": "//div[@id='leads']//a[.='Edit this Campaign']"
       }
     },
     {
@@ -111,16 +104,12 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "fieldViewInput"
       },
-      "text": "middlename"
+      "text": "lastname12"
     },
     {
       "type": "clickElement",
@@ -128,10 +117,6 @@
         "type": "id",
         "value": "fieldEditButton"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -147,15 +132,19 @@
         "value": "rulesMaxMin"
       }
     },
+		{
+      "type": "pause",
+      "waitTime": "3000"
+    },
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "frequency"
       },
-      "text": "101"
+      "text": "11"
     },
-    {
+		{
       "type": "pause",
       "waitTime": "3000"
     },
@@ -174,6 +163,13 @@
       }
     },
     {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='editRulesForm']/table/tbody/tr[3]/td[2]/select//option[2]"
+      }
+    },
+		{
       "type": "pause",
       "waitTime": "3000"
     },
@@ -181,12 +177,92 @@
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//li[@id='messageCell']/select//option[19]"
+        "value": "//form[@id='editRulesForm']/table/tbody/tr[3]/td[2]/select//option[1]"
+      }
+    },
+		{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@id='messageCell']/select//option[2]"
+      }
+    },
+		{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "dynMessageName"
+      },
+      "text": "test"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='editMessageForm']/table/tbody/tr[2]/td[2]/select//option[2]"
+      }
+    },
+		{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "dynMessageFrom"
+      },
+      "text": "w2gi@panalinks.com"
+    },
+		{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "dynMessageReplyTo"
+      },
+      "text": "manas@panalinks.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "dynMessageSubject"
+      },
+      "text": "test mail"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "dynTextArea"
+      },
+      "text": "this is a test mail"
+    },
+		{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "saveDynMessage"
       }
     },
     {
-      "type": "pause",
-      "waitTime": "3000"
+      "type": "acceptAlert"
     },
     {
       "type": "clickElement",
@@ -199,10 +275,6 @@
       "type": "acceptAlert"
     },
     {
-      "type": "pause",
-      "waitTime": "7000"
-    },
-    {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -210,8 +282,11 @@
       }
     },
     {
+      "type": "acceptAlert"
+    },
+		{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "7000"
     }
   ]
 }
