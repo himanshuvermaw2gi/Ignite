@@ -85,6 +85,10 @@
         "value": "NotActiveTab"
       }
     },
+    	{
+      "type": "pause",
+      "waitTime": "5000"
+    },
     {
       "type": "clickElement",
       "locator": {
