@@ -96,6 +96,10 @@
         "value": "#leads > #leadsTable > tbody > tr.body_display_row > td.centered_row > a.SmallLeftEndGrayButton"
       }
     },
+    	 {
+      "type": "pause",
+      "waitTime": "7000"
+    },
     {
       "type": "clickElement",
       "locator": {
