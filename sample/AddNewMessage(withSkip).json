@@ -8,13 +8,6 @@
       "url": "https://ignite.where2stageit.com/login.html"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "loginid"
-      }
-    },
-    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -72,13 +65,24 @@
     },
 		 {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "img[alt=\"Files\"]"
+        "value": "img[alt=\"Leads\"]"
+      }
+    },
+		 {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Add New Message"
       }
     },
 		 {
@@ -86,21 +90,62 @@
       "waitTime": "3000"
     },
     {
-      "type": "clickElement",
+      "type": "setElementText",
       "locator": {
-        "type": "link text",
-        "value": "Sites"
-      }
+        "type": "id",
+        "value": "sms_title"
+      },
+      "text": "test mail23ds"
     },
 		 {
       "type": "pause",
-      "waitTime": "7000"
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "messageSubject"
+      },
+      "text": "urgent123"
+    },
+		 {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "messageReplyTo"
+      },
+      "text": "riyer@where2gitit.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "messageFromName"
+      },
+      "text": "Himanshu"
+    },
+		 {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "messageFrom"
+      },
+      "text": "himanshu@panalinks.com"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Coupons"
+        "type": "id",
+        "value": "start_slide_next"
       }
     },
 		 {
@@ -111,45 +156,7 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "add_coupon"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "detail_title"
-      },
-      "text": "dominos"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "detail_description"
-      },
-      "text": "sale test12"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "name",
-        "value": "couponoffer"
-      },
-      "text": "14%"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "publish_start_date"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "publish_start_date-2013-10-18"
+        "value": "btnSkipSchedule"
       }
     },
 		 {
@@ -157,59 +164,12 @@
       "waitTime": "3000"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "publish_end_date"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "publish_end_date-2013-10-20"
-      }
-    },
-		 {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "expiration_date"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "expiration_date-2013-10-31"
-      }
-    },
-		 {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "coupon_suspend"
-      }
-    },
-		 {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "setElementSelected",
+      "type": "sendKeysToElement",
       "locator": {
         "type": "xpath",
-        "value": "//table[@id='detail_table']//select[.='(none)CouponInfo']//option[2]"
-      }
+        "value": "//html/body"
+      },
+      "text": "this is a test mail."
     },
 		 {
       "type": "pause",
@@ -219,12 +179,8 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "submit_button"
+        "value": "editMessageSubmit"
       }
-    },
-		 {
-      "type": "pause",
-      "waitTime": "3000"
     },
     {
       "type": "clickElement",
