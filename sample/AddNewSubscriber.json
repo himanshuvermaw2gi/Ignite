@@ -30,6 +30,11 @@
         "value": "submit"
       }
     },
+    
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
     {
       "type": "clickElement",
       "locator": {
@@ -59,6 +64,10 @@
         "value": "change_account"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "5000"
+    },
     {
       "type": "clickElement",
       "locator": {
@@ -66,12 +75,20 @@
         "value": "img[alt=\"Leads\"]"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "NotActiveTab"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
