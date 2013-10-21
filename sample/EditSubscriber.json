@@ -89,13 +89,7 @@
       "type": "pause",
       "waitTime": "3000"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#leads > #leadsTable > tbody > tr.body_display_row > td.centered_row > a.SmallLeftEndGrayButton"
-      }
-    },
+    
     	 {
       "type": "pause",
       "waitTime": "7000"
@@ -128,7 +122,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='edit_lead_button']"
+        "value": "#leads > #leadsTable > tbody > tr.body_display_row > td.centered_row > a.SmallLeftEndGrayButton"
       }
     },
 		 {
