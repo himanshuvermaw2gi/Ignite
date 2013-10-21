@@ -201,8 +201,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='add_lead_button']"
+        "type": "css selector",
+        "value": "#add_lead_form > #add_lead_form_inputs > tfoot > tr > td.centered_row > ul.liInlineBlock > li > #add_lead_button"
       }
     }
   ]
