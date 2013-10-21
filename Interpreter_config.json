@@ -17,7 +17,7 @@
         }
       ],
       "scripts": [
-        "sample/AddNewSubscriber.json"
+        "sample/DeleteSubscriber.json"
       ]
     }
   ]
