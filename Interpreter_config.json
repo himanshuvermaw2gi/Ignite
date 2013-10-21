@@ -17,7 +17,7 @@
         }
       ],
       "scripts": [
-        "sample/EditCampaign.json"
+        "sample/EditCampaignDetails.json"
       ]
     }
   ]
