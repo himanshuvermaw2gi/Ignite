@@ -1,0 +1,100 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://ignite.where2stageit.com/login.html"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "loginid"
+      },
+      "text": "riyer"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      },
+      "text": "ram@w2gi"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "submit"
+      }
+    },
+		{
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div > b"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"text\"]"
+      },
+      "text": "dennys"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "accounts_chzn_o_77"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "change_account"
+      }
+    },
+		{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"Leads\"]"
+      }
+    },
+		{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "NotActiveTab"
+      }
+    },
+		{
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#leads > #leadsTable > tbody > tr.body_display_row > td.centered_row > a.SmallRightEndGrayButton"
+      }
+    }
+  ]
+}
