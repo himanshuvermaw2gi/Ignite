@@ -84,35 +84,14 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "next_results"
+        "value": "back_button"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "previous_results"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#map_toggle > img"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "next_results"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "previous_results"
+        "type": "xpath",
+        "value": "//*[@id='map_toggle']/img"
       }
     },
     {
@@ -122,7 +101,7 @@
         "value": "#map_toggle > img"
       }
     },
-		 {
+   		 {
       "type": "pause",
       "waitTime": "7000"
     }
