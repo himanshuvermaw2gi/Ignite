@@ -14,7 +14,7 @@
         "type": "id",
         "value": "addressline"
       },
-      "text": "110045"
+      "text": "35004"
     },
     {
       "type": "clickElement",
@@ -26,13 +26,53 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "addresssubmit"
+        "type": "css selector",
+        "value": "input.result_store_details_button"
       }
     },
     {
-      "type": "verifyTextPresent",
-      "text": "No locations were found using your search criteria [ 110045 US ]. Please try another input address to search for locations."
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img.result_page_button"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "search"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#directions_map_toggle > img"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#directions_map_toggle > img"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#driving_directions_panel > #header_more_info > #back_button > img"
+      }
+    },
+    
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#back_button > img"
+      }
     }
+   
   ]
 }
