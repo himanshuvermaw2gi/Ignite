@@ -17,7 +17,7 @@
         }
       ],
       "scripts": [
-        "sample/SearchSubscriber.json"
+        "sample/blankaddress.json"
       ]
     }
   ]
