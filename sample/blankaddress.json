@@ -1,0 +1,30 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://mobile.where2stageit.com/jfan/"
+    },
+   
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "addressline"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "addresssubmit"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Please enter an address."
+    }
+  ]
+}
