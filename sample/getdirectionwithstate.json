@@ -64,6 +64,10 @@
         "value": "#driving_directions_panel > #header_more_info > #back_button > img"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
     {
       "type": "clickElement",
       "locator": {
