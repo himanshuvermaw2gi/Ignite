@@ -7,13 +7,14 @@
       "type": "get",
       "url": "http://mobile.where2stageit.com/jfan/"
     },
+    
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "addressline"
       },
-      "text": "alabama"
+      "text": "110045"
     },
     {
       "type": "clickElement",
@@ -23,81 +24,15 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "input.result_store_details_button"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "img.result_page_button"
-      }
-    },
-    {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "search"
+        "value": "addresssubmit"
       }
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#directions_map_toggle > img"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#directions_map_toggle > img"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#driving_directions_panel > #header_more_info > #back_button > img"
-      }
-    },
-     {
-      "type": "pause",
-      "waitTime": "8000"
-    },
-   
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#back_button > img"
-      }
-    },
-    
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='map_toggle']/img"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#map_toggle > img"
-      }
-    },
-   		 {
-      "type": "pause",
-      "waitTime": "7000"
+      "type": "verifyTextPresent",
+      "text": "No locations were found using your search criteria [ 110045 US ]. Please try another input address to search for locations."
     }
   ]
 }
