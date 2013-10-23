@@ -75,13 +75,7 @@
         "value": "NotActiveTab"
       }
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#leads > #leadsTable > tbody > tr.body_display_row > td.centered_row > a.SmallLeftEndGrayButton"
-      }
-    },
+    
     
     {
       "type": "clickElement",
