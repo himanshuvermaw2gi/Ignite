@@ -17,7 +17,7 @@
         }
       ],
       "scripts": [
-        "sample/BatchSMS.json"
+        "sample/sendlater.json"
       ]
     }
   ]
