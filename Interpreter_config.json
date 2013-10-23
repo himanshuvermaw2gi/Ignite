@@ -17,7 +17,7 @@
         }
       ],
       "scripts": [
-        "sample/sendnow.json"
+        "sample/searchsubscriber.json"
       ]
     }
   ]
