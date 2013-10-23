@@ -91,7 +91,7 @@
         "type": "id",
         "value": "sms_title"
       },
-      "text": "testpanalink"
+      "text": "testpanalink101"
     },
     {
       "type": "setElementText",
@@ -99,7 +99,7 @@
         "type": "id",
         "value": "messageSubject"
       },
-      "text": "test mail"
+      "text": "test mail11"
     },
     {
       "type": "setElementText",
@@ -251,7 +251,7 @@
         "type": "id",
         "value": "sendHours"
       },
-      "text": "09"
+      "text": "08"
     },
     {
       "type": "clickElement",
