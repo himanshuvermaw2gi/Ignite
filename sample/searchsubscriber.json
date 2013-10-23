@@ -196,7 +196,7 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "#search_lead_button"
+        "value": "#search_lead_form > #search_lead_form_inputs > tfoot > tr > td.centered_row > ul.liInlineBlock > li > #search_lead_button"
       }
     },
 		 {
