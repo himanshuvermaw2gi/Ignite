@@ -75,8 +75,21 @@
         "value": "NotActiveTab"
       }
     },
-    
-    
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#leads > #leadsTable > tbody > tr.body_display_row > td.centered_row > a.SmallLeftEndGrayButton"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
     {
       "type": "clickElement",
       "locator": {
