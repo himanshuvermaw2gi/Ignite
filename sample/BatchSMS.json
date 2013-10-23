@@ -30,7 +30,7 @@
         "value": "submit"
       }
     },
-		{
+    {
       "type": "pause",
       "waitTime": "5000"
     },
@@ -63,9 +63,9 @@
         "value": "change_account"
       }
     },
-		{
+    {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -74,9 +74,9 @@
         "value": "img[alt=\"Leads\"]"
       }
     },
-		{
+    {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -86,11 +86,31 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//td[@id='messages_holder']/select//option[14]"
+        "value": "//td[@id='messages_holder']/select//option[17]"
       }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "sms_title"
+      },
+      "text": "Urgent mail for testing"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "messageTextArea"
+      },
+      "text": "this is a test mail 12345667"
     },
     {
       "type": "clickElement",
@@ -99,12 +119,19 @@
         "value": "batchSubmit"
       }
     },
+		{
+		"type": "acceptAlert"
+		},
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
       }
+    },
+		{
+      "type": "pause",
+      "waitTime": "5000"
     }
   ]
 }
