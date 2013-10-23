@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-		{
+		 {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -63,7 +63,7 @@
         "value": "change_account"
       }
     },
-		{
+		 {
       "type": "pause",
       "waitTime": "4000"
     },
@@ -74,113 +74,132 @@
         "value": "img[alt=\"Leads\"]"
       }
     },
-		{
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Add New Message"
-      }
-    },
-    {
+		 {
       "type": "pause",
       "waitTime": "4000"
     },
     {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "sms_title"
-      },
-      "text": "testforQA2"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "messageSubject"
-      },
-      "text": "testing2"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "messageReplyTo"
-      },
-      "text": "riyer@where2gitit.com"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "messageFromName"
-      },
-      "text": "Himanshu"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "messageFrom"
-      },
-      "text": "himanshu@panalinks.com"
-    },
-    {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "start_slide_next"
+        "value": "NotActiveTab"
       }
     },
     {
       "type": "clickElement",
       "locator": {
+        "type": "xpath",
+        "value": "//div[@id='leads']//a[.='Search Subscribers']"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
         "type": "id",
-        "value": "sendNow"
+        "value": "firstname_input"
+      },
+      "text": "test12"
+    },
+		 {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "lastname_input"
+      },
+      "text": "panalink"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "emailaddress_input"
+      },
+      "text": "himanshu@panalinks.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "city_input"
+      },
+      "text": "New Delhi"
+    },
+		 {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[1]"
       }
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='pnlReport']/p[2]/select//option[2]"
+        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[10]"
       }
     },
     {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "recipients"
-      },
-      "text": "riyer@where2getit.com"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Save and Continue"
-      }
-    },
-    {
-      "type": "sendKeysToElement",
+      "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//html/body"
-      },
-      "text": "this is a test mail1"
+        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[10]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[10]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[10]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[10]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[10]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[13]"
+      }
+    },
+		 {
+      "type": "pause",
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "editMessageSubmit"
+        "type": "css selector",
+        "value": "#search_lead_button"
       }
     },
-    {
+		 {
       "type": "pause",
       "waitTime": "4000"
     },
@@ -191,9 +210,9 @@
         "value": "lightwindow_title_bar_close_link"
       }
     },
-		{
+		 {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "7000"
     }
   ]
 }
