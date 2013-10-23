@@ -274,17 +274,7 @@
         "value": "Save and Continue"
       }
     },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
+    
     {
       "type": "clickElement",
       "locator": {
