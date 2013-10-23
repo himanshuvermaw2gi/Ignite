@@ -32,7 +32,7 @@
     },
 		{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -65,7 +65,7 @@
     },
 		{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -76,7 +76,7 @@
     },
 		{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -91,7 +91,7 @@
         "type": "id",
         "value": "sms_title"
       },
-      "text": "testpanalink101"
+      "text": "testforQA1"
     },
     {
       "type": "setElementText",
@@ -99,7 +99,7 @@
         "type": "id",
         "value": "messageSubject"
       },
-      "text": "test mail11"
+      "text": "testing1"
     },
     {
       "type": "setElementText",
@@ -125,10 +125,6 @@
       },
       "text": "himanshu@panalinks.com"
     },
-		{
-      "type": "pause",
-      "waitTime": "3000"
-    },
     {
       "type": "clickElement",
       "locator": {
@@ -136,46 +132,11 @@
         "value": "start_slide_next"
       }
     },
-		{
-      "type": "pause",
-      "waitTime": "3000"
-    },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "sendLater"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "sendDate"
-      },
-      "text": "2013-11-11"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "sendHours"
-      },
-      "text": "22"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "sendMinutes"
-      },
-      "text": "22"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='pnlSchedule']/ul/li[4]/select//option[2]"
+        "value": "sendNow"
       }
     },
     {
@@ -183,13 +144,6 @@
       "locator": {
         "type": "xpath",
         "value": "//div[@id='pnlReport']/p[2]/select//option[2]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "recipients"
       }
     },
     {
@@ -207,14 +161,13 @@
         "value": "Save and Continue"
       }
     },
-    
     {
       "type": "sendKeysToElement",
       "locator": {
         "type": "xpath",
         "value": "//html/body"
       },
-      "text": "this is a test mail"
+      "text": "this is a test mail1"
     },
     {
       "type": "clickElement",
@@ -222,69 +175,6 @@
         "type": "id",
         "value": "editMessageSubmit"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "a.carousel-control.LeftEndGrayButton"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "sendHours"
-      },
-      "text": "08"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "sendMinutes"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='pnlSchedule']/ul/li[4]/select//option[1]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Save and Continue"
-      }
-    },
-    
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "editMessageSubmit"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "5000"
     },
     {
       "type": "clickElement",
