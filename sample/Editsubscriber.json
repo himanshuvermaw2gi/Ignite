@@ -30,6 +30,10 @@
         "value": "submit"
       }
     },
+      {
+      "type": "pause",
+      "waitTime": "4000"
+    },
     {
       "type": "clickElement",
       "locator": {
@@ -58,6 +62,10 @@
         "type": "id",
         "value": "change_account"
       }
+    },
+      {
+      "type": "pause",
+      "waitTime": "4000"
     },
     
     {
