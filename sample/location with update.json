@@ -96,7 +96,7 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "submit"
+        "value": "lightwindow_title_bar_close_link"
       }
     },
 		 {
