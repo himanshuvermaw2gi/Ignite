@@ -150,7 +150,7 @@
         "type": "id",
         "value": "location_phone"
       },
-      "text": "00000000"
+      "text": "000000"
     },
     {
       "type": "clickElement",
