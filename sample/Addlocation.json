@@ -101,7 +101,7 @@
         "type": "id",
         "value": "location_name"
       },
-      "text": "manas21"
+      "text": "manas211"
     },
     
 		{
@@ -117,7 +117,7 @@
     },
 		{
       "type": "pause",
-      "waitTime": "7000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -126,31 +126,10 @@
         "value": "location_submit"
       }
     },
-    {
+    	{
       "type": "pause",
-      "waitTime": "20000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='collection_poi']/tbody/tr/td[2]/ul[2]/li[2]/span"
-      }
-    },
-		{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "location_submit"
-      }
-    },
-		{
-      "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "5000"
     }
+    
   ]
 }
