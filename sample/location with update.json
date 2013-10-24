@@ -8,6 +8,13 @@
       "url": "https://ignite.where2stageit.com/login.html"
     },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "submit"
+      }
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -30,7 +37,7 @@
         "value": "submit"
       }
     },
-		 {
+		  {
       "type": "pause",
       "waitTime": "4000"
     },
@@ -63,7 +70,7 @@
         "value": "change_account"
       }
     },
-		  {
+		 {
       "type": "pause",
       "waitTime": "4000"
     },
@@ -74,6 +81,29 @@
         "value": "img[alt=\"Files\"]"
       }
     },
+		 {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@class='FormTable']//label[.='Update-Delete']"
+      }
+    },
+		 {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "updatedel_radio"
+      }
+    },
+		
     {
       "type": "clickElement",
       "locator": {
@@ -88,7 +118,7 @@
         "value": "search_button"
       }
     },
-     {
+    	{
       "type": "pause",
       "waitTime": "4000"
     },
@@ -99,7 +129,7 @@
         "value": "lightwindow_title_bar_close_link"
       }
     },
-		 {
+		{
       "type": "pause",
       "waitTime": "4000"
     }
