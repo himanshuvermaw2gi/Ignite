@@ -103,14 +103,7 @@
       },
       "text": "manas21"
     },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "location_city"
-      },
-      "text": "cas123"
-    },
+    
 		{
       "type": "pause",
       "waitTime": "7000"
