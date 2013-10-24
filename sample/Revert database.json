@@ -7,7 +7,13 @@
       "type": "get",
       "url": "https://ignite.where2stageit.com/login.html"
     },
-    
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "container-wrapper"
+      }
+    },
     {
       "type": "setElementText",
       "locator": {
@@ -35,7 +41,7 @@
       "type": "pause",
       "waitTime": "4000"
     },
-		{
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -53,8 +59,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_77 > em"
+        "type": "id",
+        "value": "accounts_chzn_o_77"
       }
     },
     {
@@ -64,7 +70,7 @@
         "value": "change_account"
       }
     },
-		 {
+		  {
       "type": "pause",
       "waitTime": "4000"
     },
@@ -75,18 +81,18 @@
         "value": "img[alt=\"Files\"]"
       }
     },
-		 {
+		  {
       "type": "pause",
       "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//table[@class='FormTable']//label[.='Update-Delete']"
+        "type": "link text",
+        "value": "Revert"
       }
     },
-		 {
+		  {
       "type": "pause",
       "waitTime": "2000"
     },
@@ -94,36 +100,10 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "updatedel_radio"
+        "value": "revert_button"
       }
     },
-		
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "upload_file"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "search_button"
-      }
-    },
-    	{
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
-		{
+		  {
       "type": "pause",
       "waitTime": "4000"
     }
