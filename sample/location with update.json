@@ -7,13 +7,7 @@
       "type": "get",
       "url": "https://ignite.where2stageit.com/login.html"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "submit"
-      }
-    },
+    
     {
       "type": "setElementText",
       "locator": {
