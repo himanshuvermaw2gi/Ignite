@@ -30,6 +30,10 @@
         "value": "submit"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
     {
       "type": "clickElement",
       "locator": {
@@ -59,12 +63,20 @@
         "value": "change_account"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
         "value": "img[alt=\"Files\"]"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -79,6 +91,10 @@
         "type": "xpath",
         "value": "//div[@id='down_cat_select']/select//option[3]"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -100,6 +116,10 @@
         "type": "id",
         "value": "admin_download_button"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "4000"
     }
   ]
 }
