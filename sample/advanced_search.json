@@ -30,11 +30,11 @@
         "value": "submit"
       }
     },
-		 {
+		{
       "type": "pause",
       "waitTime": "4000"
     },
-		{
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -63,109 +63,68 @@
         "value": "change_account"
       }
     },
-                {
+		{
       "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "name",
-        "value": "addressline"
-      },
-      "text": "alabama"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='locator_search']/ul/li[2]/select//option[235]"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='locator_search']/ul/li[2]/select//option[237]"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='locator_search']/ul/li[2]/select//option[237]"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='locator_search']/ul/li[2]/select//option[237]"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='locator_search']/ul/li[2]/select//option[237]"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='locator_search']/ul/li[2]/select//option[237]"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='locator_search']/ul/li[2]/select//option[1]"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='locator_search']/ul/li[2]/select//option[1]"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='locator_search']/ul/li[2]/select//option[1]"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='locator_search']/ul/li[3]/select//option[3]"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='locator_search']/ul/li[4]/select//option[2]"
-      }
-    },
-		 {
-      "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "advanced_search_button"
+        "value": "add_location_box"
       }
     },
-		 {
+    {
+      "type": "doubleClickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_overlay"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "add_location_box"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "autogenerateid"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "location_name"
+      },
+      "text": "manas21"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "location_city"
+      },
+      "text": "casino21"
+    },
+		{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "4000"
+    },
+    {
+      "type": "doubleClickElement",
+      "locator": {
+        "type": "id",
+        "value": "location_geocode"
+      }
+    },
+		{
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -174,29 +133,25 @@
         "value": "location_submit"
       }
     },
-		 {
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//tr[@class='even']/td[2]/ul[2]/li[2]/span"
+      }
+    },
+		{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "close_alert"
+        "value": "location_submit"
       }
     },
-		 {
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "doubleClickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='OpenLayers.Layer.TMS_6']/img[3]"
-      }
-    },
-		 {
+		{
       "type": "pause",
       "waitTime": "4000"
     }
