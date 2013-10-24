@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-		{
+		 {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -52,8 +52,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_77 > em"
+        "type": "id",
+        "value": "accounts_chzn_o_77"
       }
     },
     {
@@ -63,73 +63,45 @@
         "value": "change_account"
       }
     },
-		{
+		 {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"Files\"]"
+      }
+    },
+		 {
       "type": "pause",
       "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "add_location_box"
-      }
-    },
-    {
-      "type": "doubleClickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_overlay"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "add_location_box"
+        "type": "link text",
+        "value": "Admin Download"
       }
     },
     {
       "type": "setElementSelected",
       "locator": {
-        "type": "id",
-        "value": "autogenerateid"
+        "type": "xpath",
+        "value": "//div[@id='down_cat_select']/select//option[2]"
       }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "location_name"
-      },
-      "text": "manas211"
-    },
-    
-		{
-      "type": "pause",
-      "waitTime": "7000"
-    },
-    {
-      "type": "doubleClickElement",
-      "locator": {
-        "type": "id",
-        "value": "location_geocode"
-      }
-    },
-		{
-      "type": "pause",
-      "waitTime": "5000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "location_submit"
+        "type": "xpath",
+        "value": "//table[@id='upload_outside_box']//label[.='Excel 2003 or older (.xls)']"
       }
     },
-    	{
+     {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     }
-    
   ]
 }
