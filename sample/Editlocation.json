@@ -137,20 +137,14 @@
       "type": "pause",
       "waitTime": "4000"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_loading"
-      }
-    },
+    
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "location_phone"
       },
-      "text": "000000"
+      "text": "00000000"
     },
     {
       "type": "clickElement",
