@@ -52,8 +52,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_77 > em"
+        "type": "id",
+        "value": "accounts_chzn_o_77"
       }
     },
     {
@@ -74,29 +74,37 @@
         "value": "img[alt=\"Files\"]"
       }
     },
-    	 {
+		 {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Data Cleansing History"
+        "type": "id",
+        "value": "NotActiveTab"
       }
     },
 		 {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
+    },
+    
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "tr.sched_row > td.sched_name"
+      }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "-2147132979"
+        "value": "Delete Scheduled Upload"
       }
     },
-     {
+		 {
       "type": "pause",
       "waitTime": "4000"
     },
