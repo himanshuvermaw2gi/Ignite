@@ -85,13 +85,7 @@
         "value": "Admin Download"
       }
     },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='down_cat_select']/select//option[3]"
-      }
-    },
+    
      {
       "type": "pause",
       "waitTime": "4000"
