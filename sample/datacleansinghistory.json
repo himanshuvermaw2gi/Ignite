@@ -74,75 +74,29 @@
         "value": "img[alt=\"Files\"]"
       }
     },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Data Cleansing History"
+      }
+    },
 		 {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Data Cleansing"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "7000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "use_db"
+        "value": "-2147132979"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "start_slide_next"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='options_slide']/div[1]/label[2]/input"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='options_slide']/div[3]/label[5]/input"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='options_slide']/div[5]/label[2]/input"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='options_slide']/div[7]/label[2]/input"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='options_slide']//a[.='Next Step']"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "submit_form"
+        "value": "lightwindow_title_bar_close_link"
       }
     },
 		 {
