@@ -52,8 +52,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "accounts_chzn_o_77"
+        "type": "css selector",
+        "value": "#accounts_chzn_o_77 > em"
       }
     },
     {
@@ -81,38 +81,40 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "NotActiveTab"
-      }
-    },
-		 {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "tr.sched_row > td.sched_name"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
         "type": "link text",
-        "value": "Delete Scheduled Upload"
+        "value": "Download"
       }
     },
 		 {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "8000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='down_cat_select']/select//option[2]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//tr[@id='type_container']//label[.='Comma']"
+      }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lightwindow_title_bar_close_link"
+        "value": "comma"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "download_button"
       }
     },
 		 {
