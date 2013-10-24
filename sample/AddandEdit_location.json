@@ -134,7 +134,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//tr[@class='even']/td[2]/ul[2]/li[2]/span"
+        "value": "//*[@id='collection_poi']/tbody/tr/td[2]/ul[2]/li[2]/span"
       }
     },
 		{
