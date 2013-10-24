@@ -186,11 +186,15 @@
       },
       "text": "192.168.1.30"
     },
+      {
+      "type": "pause",
+      "waitTime": "4000"
+    },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='sched-box']/table[3]/tbody/tr[7]/td[2]/select//option[0]"
+        "value": "//div[@id='sched-box']/table[3]/tbody/tr[7]/td[2]/select//option[1]"
       }
     },
     {
