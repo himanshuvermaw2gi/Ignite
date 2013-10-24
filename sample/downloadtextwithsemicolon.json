@@ -52,8 +52,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_77 > em"
+        "type": "id",
+        "value": "accounts_chzn_o_77"
       }
     },
     {
@@ -100,14 +100,14 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//tr[@id='type_container']//label[.='Comma']"
+        "value": "//tr[@id='type_container']//label[.='Semicolon']"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "comma"
+        "value": "semicolon"
       }
     },
     {
