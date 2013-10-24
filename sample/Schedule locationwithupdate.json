@@ -8,13 +8,6 @@
       "url": "https://ignite.where2stageit.com/login.html"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "container-wrapper"
-      }
-    },
-    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -59,8 +52,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "accounts_chzn_o_77"
+        "type": "css selector",
+        "value": "#accounts_chzn_o_77 > em"
       }
     },
     {
@@ -88,55 +81,44 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//table[@class='FormTable']//label[.='Replace']"
-      }
-    },
-		  {
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "replace_radio"
-      }
-    },
-		  {
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
         "type": "id",
         "value": "NotActiveTab"
       }
     },
+		  {
+      "type": "pause",
+      "waitTime": "2000"
+    },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='sched-box']//label[.='Replace']"
+        "type": "css selector",
+        "value": "li.Tooltip > label"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "replace_radio"
+        "value": "append_radio"
       }
     },
 		  {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
         "value": "//div[@id='sched-box']/table[2]/tbody/tr[4]/td[2]/select//option[1]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='sched-box']/table[2]/tbody/tr[5]/td[2]/select//option[2]"
       }
     },
     {
@@ -152,7 +134,7 @@
         "type": "id",
         "value": "username"
       },
-      "text": "w2gi"
+      "text": "w2gi@panalinks"
     },
     {
       "type": "setElementText",
@@ -160,7 +142,7 @@
         "type": "id",
         "value": "password"
       },
-      "text": "123456"
+      "text": "123456789"
     },
     {
       "type": "setElementText",
@@ -168,7 +150,7 @@
         "type": "id",
         "value": "filename"
       },
-      "text": "test4.txt"
+      "text": "test78.txt"
     },
     {
       "type": "setElementText",
@@ -176,7 +158,7 @@
         "type": "id",
         "value": "path"
       },
-      "text": "/home/desktop"
+      "text": "/home/desktop/test01"
     },
     {
       "type": "setElementText",
@@ -186,16 +168,9 @@
       },
       "text": "192.168.1.30"
     },
-      {
+		  {
       "type": "pause",
       "waitTime": "4000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='sched-box']/table[3]/tbody/tr[7]/td[2]/select//option[1]"
-      }
     },
     {
       "type": "setElementSelected",
@@ -215,7 +190,7 @@
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='sched-box']/table[4]/tbody/tr[3]/td[2]/ul/li[1]/select//option[4]"
+        "value": "//div[@id='sched-box']/table[4]/tbody/tr[3]/td[2]/ul/li[1]/select//option[2]"
       }
     },
     {
@@ -249,10 +224,7 @@
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
       }
-    },
-		  {
-      "type": "pause",
-      "waitTime": "4000"
     }
+    
   ]
 }
