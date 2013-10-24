@@ -88,35 +88,49 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "NotActiveTab"
+        "type": "xpath",
+        "value": "//table[@class='FormTable']//label[.='Replace']"
       }
     },
 		  {
       "type": "pause",
       "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "replace_radio"
+      }
+    },
+		  {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "NotActiveTab"
+      }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='sched-box']//label[.='Delete']"
+        "value": "//div[@id='sched-box']//label[.='Replace']"
       }
-    },
-		  {
-      "type": "pause",
-      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "delete_radio"
+        "value": "replace_radio"
       }
     },
 		  {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "setElementSelected",
@@ -154,7 +168,7 @@
         "type": "id",
         "value": "filename"
       },
-      "text": "test3.txt"
+      "text": "test4.txt"
     },
     {
       "type": "setElementText",
@@ -176,6 +190,13 @@
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
+        "value": "//div[@id='sched-box']/table[3]/tbody/tr[7]/td[2]/select//option[0]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
         "value": "//div[@id='sched-box']/table[3]/tbody/tr[7]/td[2]/select//option[2]"
       }
     },
@@ -190,14 +211,14 @@
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='sched-box']/table[4]/tbody/tr[3]/td[2]/ul/li[1]/select//option[3]"
+        "value": "//div[@id='sched-box']/table[4]/tbody/tr[3]/td[2]/ul/li[1]/select//option[4]"
       }
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='sched-box']/table[4]/tbody/tr[3]/td[2]/ul/li[2]/select//option[3]"
+        "value": "//div[@id='sched-box']/table[4]/tbody/tr[3]/td[2]/ul/li[2]/select//option[2]"
       }
     },
     {
