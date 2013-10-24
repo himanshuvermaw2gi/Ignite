@@ -123,11 +123,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "9000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
         "value": "//div[@id='panel']/table/tbody/tr[1]/td[2]/ul[2]/li[2]/span"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
