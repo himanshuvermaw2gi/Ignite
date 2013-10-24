@@ -109,11 +109,11 @@
         "type": "id",
         "value": "location_city"
       },
-      "text": "casino21"
+      "text": "cas123"
     },
 		{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "7000"
     },
     {
       "type": "doubleClickElement",
@@ -124,7 +124,7 @@
     },
 		{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "7000"
     },
     {
       "type": "clickElement",
