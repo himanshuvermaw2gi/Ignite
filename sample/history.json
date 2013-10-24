@@ -42,18 +42,10 @@
       }
     },
     {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "input[type=\"text\"]"
-      },
-      "text": "dennys"
-    },
-    {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_77 > em"
+        "type": "id",
+        "value": "accounts_chzn_o_77"
       }
     },
     {
@@ -68,7 +60,7 @@
       "waitTime": "4000"
     },
     {
-      "type": "clickElement",
+      "type": "doubleClickElement",
       "locator": {
         "type": "css selector",
         "value": "img[alt=\"Files\"]"
@@ -82,32 +74,7 @@
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Field Editor"
-      }
-    },
-		 {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//table[@class='FormTable']/tbody/tr[1]/td[2]/select//option[2]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "li.fieldItem"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "input.Button.marginT-30"
+        "value": "History"
       }
     },
 		 {
@@ -118,14 +85,36 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@id='field_items']//li[.='sku']"
+        "value": "//div[@id='job_history_table']//td[.='2013-03-26 03:19:46']"
+      }
+    },
+		 {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "input.Button.marginT-30"
+        "type": "xpath",
+        "value": "//div[@id='job_history_table']//td[.='1076943572']"
+      }
+    },
+		 {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
       }
     },
 		 {
