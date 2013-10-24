@@ -8,13 +8,6 @@
       "url": "https://ignite.where2stageit.com/login.html"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "container-wrapper"
-      }
-    },
-    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -89,25 +82,57 @@
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Download"
+        "value": "Field Editor"
       }
     },
 		 {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='down_cat_select']/select//option[3]"
+        "value": "//table[@class='FormTable']/tbody/tr[1]/td[2]/select//option[3]"
+      }
+    },
+		 {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//tr[@id='view_display']/td[2]/select//option[2]"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "download_button"
+        "type": "css selector",
+        "value": "li.fieldItem"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.Button.marginT-30"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@id='field_items']//li[.='name']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.Button.marginT-30"
       }
     },
 		 {
