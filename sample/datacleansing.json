@@ -86,6 +86,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "7000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
