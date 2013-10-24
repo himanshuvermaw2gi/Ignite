@@ -86,10 +86,10 @@
       }
     },
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='down_cat_select']/select//option[2]"
+        "value": "//*[@id='download_category_list']/option[2]"
       }
     },
     {
