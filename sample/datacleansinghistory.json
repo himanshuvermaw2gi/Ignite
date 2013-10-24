@@ -74,6 +74,10 @@
         "value": "img[alt=\"Files\"]"
       }
     },
+    	 {
+      "type": "pause",
+      "waitTime": "4000"
+    },
     {
       "type": "clickElement",
       "locator": {
