@@ -85,13 +85,7 @@
         "value": "Admin Download"
       }
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='download_category_list']/option[2]"
-      }
-    },
+    
     {
       "type": "clickElement",
       "locator": {
