@@ -52,8 +52,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "accounts_chzn_o_77"
+        "type": "css selector",
+        "value": "#accounts_chzn_o_77 > em"
       }
     },
     {
@@ -87,24 +87,13 @@
     },
 		 {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//table[@class='FormTable']/tbody/tr[1]/td[2]/select//option[4]"
-      }
-    },
-		 {
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//tr[@id='view_display']/td[2]/select//option[2]"
+        "value": "//table[@class='FormTable']/tbody/tr[1]/td[2]/select//option[2]"
       }
     },
     {
@@ -114,12 +103,8 @@
         "value": "li.fieldItem"
       }
     },
-		 {
-      "type": "pause",
-      "waitTime": "2000"
-    },
     {
-      "type": "doubleClickElement",
+      "type": "clickElement",
       "locator": {
         "type": "css selector",
         "value": "input.Button.marginT-30"
@@ -127,13 +112,13 @@
     },
 		 {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@id='field_items']//li[.='name']"
+        "value": "//ul[@id='field_items']//li[.='sku']"
       }
     },
     {
