@@ -8,6 +8,13 @@
       "url": "https://ignite.where2stageit.com/login.html"
     },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "container-wrapper"
+      }
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -52,8 +59,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "accounts_chzn_o_77"
+        "type": "css selector",
+        "value": "#accounts_chzn_o_77 > em"
       }
     },
     {
@@ -76,7 +83,7 @@
     },
 		 {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -87,27 +94,13 @@
     },
 		 {
       "type": "pause",
-      "waitTime": "8000"
+      "waitTime": "5000"
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='down_cat_select']/select//option[2]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//tr[@id='type_container']//label[.='Semicolon']"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "semicolon"
+        "value": "//div[@id='down_cat_select']/select//option[3]"
       }
     },
     {
