@@ -30,11 +30,11 @@
         "value": "submit"
       }
     },
-      {
+		 {
       "type": "pause",
       "waitTime": "4000"
     },
-    {
+		{
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -63,54 +63,49 @@
         "value": "change_account"
       }
     },
-      {
+		 {
       "type": "pause",
       "waitTime": "4000"
-    },
-    
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "NotActiveTab"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "10000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#leads > #leadsTable > tbody > tr.body_display_row > td.centered_row > a.SmallLeftEndGrayButton"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='leads']/table/tbody/tr[2]/td[1]/a[1]"
-      }
     },
     {
       "type": "setElementText",
       "locator": {
-        "type": "id",
-        "value": "address1_input"
+        "type": "name",
+        "value": "addressline"
       },
-      "text": "test"
+      "text": "alabama"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='locator_search']/ul/li[3]/select//option[3]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='locator_search']/ul/li[4]/select//option[2]"
+      }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#edit_lead_form > #edit_lead_form_inputs > tfoot > tr > td.centered_row > ul.liInlineBlock > li > #edit_lead_button"
+        "type": "id",
+        "value": "search_button"
       }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
+      }
+    },
+    	 {
+      "type": "pause",
+      "waitTime": "4000"
     }
   ]
 }
