@@ -5,5 +5,5 @@ script:
      - "se-interpreter Interpreter_config.json"
 
 sauce_connect:
-    username: "himanshuverma"
-    secure: "eda5a7cc-ff62-4b62-9d2a-d78d54d582de"
+    username: "homeunion"
+    secure: "0633edc0-ef99-4445-9bf5-093c125a2a34"
