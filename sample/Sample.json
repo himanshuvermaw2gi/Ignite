@@ -303,8 +303,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "linktest",
-        "value": "Browse"
+        "type": "xpath",
+        "value": "//ul[@class='page-sidebar-menu']/li[3]/a/span"
       }
     },
     {
