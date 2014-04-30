@@ -5,11 +5,11 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://192.168.10.13/investorportal/"
+      "url": "http://dev.investorportal.com/investorportal/"
     },
     {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -33,6 +33,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -45,6 +49,10 @@
         "type": "name",
         "value": "optionsRadio1"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -66,6 +74,10 @@
         "type": "id",
         "value": "lbl_ques9_tab"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -103,12 +115,20 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "invest-amount"
       },
-      "text": "$150,000"
+      "text": "$75,000"
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -116,6 +136,10 @@
         "type": "xpath",
         "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -140,7 +164,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -151,7 +175,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "setElementText",
@@ -159,7 +183,7 @@
         "type": "id",
         "value": "login-username-input"
       },
-      "text": "himanshu@panalinks.com"
+      "text": "kapil@panalinks.com"
     },
     {
       "type": "setElementText",
@@ -172,8 +196,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//form[@id='login-form']/div[5]/button"
+        "type": "id",
+        "value": "login-btn"
       }
     },
     {
@@ -184,7 +208,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[4]/div/div[1]/div/ul/li[3]/a"
+        "value": "//div[4]/div/div[1]/div/ul/li[3]/a/span"
       }
     },
     {
@@ -195,7 +219,53 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@class='page-sidebar-menu']/li[4]/a"
+        "value": "//div[@class='optionbg']/ul/li[2]/a"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='optionbg']/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='optionbg']/ul/li[4]/a"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#uniform-optionsRadios6 > span"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "optionsRadios6"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='margin_top_09']//button[normalize-space(.)='Recalculate']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='page-sidebar-menu']/li[4]/a/span"
       }
     },
     {
@@ -224,10 +294,10 @@
       }
     },
     {
-      "type": "setElementNotSelected",
+      "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@class='bottom_chart_class']/div[2]/span[3]/div/span/input"
+        "value": "//div[@class='bottom_chart_class']/div[2]/span[1]/div/span/input"
       }
     },
     {
@@ -235,20 +305,6 @@
       "locator": {
         "type": "xpath",
         "value": "//div[@class='bottom_chart_class']/div[2]/span[2]/div/span/input"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='bottom_chart_class']/div[2]/span[3]/div/span/input"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='bottom_chart_class']/div[2]/span[1]/div/span/input"
       }
     }
   ],
