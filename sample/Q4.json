@@ -15,14 +15,14 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lbl_ques3_tab"
+        "value": "lbl_ques1_tab"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "optionsRadios6"
+        "value": "optionsRadios4"
       }
     },
     {
@@ -34,7 +34,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -54,18 +54,18 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lbl_ques8_tab"
+        "value": "lbl_ques7_tab"
       }
     },
     {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "#uniform-optionsRadios8 > span > input[name=\"optionsRadio2\"]"
+        "value": "#uniform-optionsRadios7 > span > input[name=\"optionsRadio2\"]"
       }
     },
     {
@@ -84,7 +84,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -96,15 +96,15 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#lbl_ques14_tab > #uniform-optionsRadios5 > span"
+        "type": "id",
+        "value": "lbl_ques13_tab"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#optionsRadios5"
+        "type": "id",
+        "value": "optionsRadios5"
       }
     },
     {
@@ -116,7 +116,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "setElementText",
@@ -124,36 +124,32 @@
         "type": "id",
         "value": "invest-amount"
       },
-      "text": "$75000"
-    },
-    {
-      "type": "pause",
-      "waitTime": "2000"
+      "text": "$150000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
         "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lbl_ques16_tab"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lbl_ques17_tab"
+        "value": "optionsRadios5"
       }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#optionsRadios5"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -164,7 +160,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -175,7 +171,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "setElementText",
@@ -218,8 +214,68 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "a.property.pointer > img"
+        "type": "xpath",
+        "value": "//li[@class='start']/a/span"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "name",
+        "value": "check1"
+      }
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='customChartsLegend']/span[2]/div/span/input"
+      }
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='customChartsLegend']/span[3]/div/span/input"
+      }
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "name",
+        "value": "check1"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='customChartsLegend']/span[2]/div/span/input"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='customChartsLegend']/span[3]/div/span/input"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='page-sidebar-menu']/li[4]/a/span"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='sample_1']/tbody/tr[2]/td[1]/a/img"
       }
     },
     {
@@ -274,14 +330,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//li[@class='start']/a/span"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "name",
-        "value": "check1"
+        "value": "//li[@class='start']/a"
       }
     }
   ],
