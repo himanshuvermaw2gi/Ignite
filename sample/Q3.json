@@ -15,14 +15,14 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lbl_ques2_tab"
+        "value": "lbl_ques3_tab"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "optionsRadios5"
+        "value": "optionsRadios6"
       }
     },
     {
@@ -34,7 +34,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -54,14 +54,7 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lbl_ques7_tab"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#uniform-optionsRadios7 > span > input[name=\"optionsRadio2\"]"
+        "value": "lbl_ques8_tab"
       }
     },
     {
@@ -72,15 +65,26 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "#lbl_ques10_tab > #uniform-optionsRadios5 > span"
+        "value": "#uniform-optionsRadios8 > span > input[name=\"optionsRadio2\"]"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "#uniform-optionsRadios5 > span > input[name=\"optionsRadio3\"]"
+        "value": "#lbl_ques11_tab > #uniform-optionsRadios5 > span"
       }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#lbl_ques11_tab > #uniform-optionsRadios5 > span > input[name=\"optionsRadio3\"]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -92,15 +96,15 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "lbl_ques12_tab"
+        "type": "css selector",
+        "value": "#lbl_ques14_tab > #uniform-optionsRadios5 > span"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "optionsRadios4"
+        "type": "css selector",
+        "value": "#optionsRadios5"
       }
     },
     {
@@ -109,6 +113,10 @@
         "type": "xpath",
         "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "setElementText",
@@ -116,7 +124,7 @@
         "type": "id",
         "value": "invest-amount"
       },
-      "text": "$75,000"
+      "text": "$75000"
     },
     {
       "type": "pause",
@@ -133,15 +141,19 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lbl_ques16_tab"
+        "value": "lbl_ques17_tab"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "optionsRadios5"
+        "type": "css selector",
+        "value": "#optionsRadios5"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -152,7 +164,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -163,7 +175,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "setElementText",
@@ -190,24 +202,13 @@
     },
     {
       "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//li[@class='start']/a"
-      }
-    },
-    {
-      "type": "pause",
       "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@class='page-sidebar-menu']/li[4]/a"
+        "value": "//ul[@class='page-sidebar-menu']/li[4]/a/span"
       }
     },
     {
@@ -223,7 +224,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -274,6 +275,13 @@
       "locator": {
         "type": "xpath",
         "value": "//li[@class='start']/a/span"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "name",
+        "value": "check1"
       }
     }
   ],
