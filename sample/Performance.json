@@ -5,7 +5,7 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://dev.investorportal.com/investorportal/"
+      "url": "http://integration.investorportal.com/"
     },
     {
       "type": "pause",
@@ -34,13 +34,13 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "lbl_ques4_tab"
+        "type": "css selector",
+        "value": "#uniform-optionsRadios4 > span"
       }
     },
     {
@@ -54,37 +54,33 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lbl_ques7_tab"
+        "value": "lbl_ques6_tab"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "name",
+        "value": "optionsRadio2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lbl_ques9_tab"
       }
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#uniform-optionsRadios7 > span > input[name=\"optionsRadio2\"]"
+        "type": "name",
+        "value": "optionsRadio3"
       }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#lbl_ques11_tab > #uniform-optionsRadios5 > span"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#lbl_ques11_tab > #uniform-optionsRadios5 > span > input[name=\"optionsRadio3\"]"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -97,14 +93,14 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lbl_ques13_tab"
+        "value": "lbl_ques12_tab"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "optionsRadios5"
+        "value": "optionsRadios4"
       }
     },
     {
@@ -116,7 +112,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "setElementText",
@@ -124,7 +120,7 @@
         "type": "id",
         "value": "invest-amount"
       },
-      "text": "$150000"
+      "text": "$100,000"
     },
     {
       "type": "clickElement",
@@ -132,10 +128,6 @@
         "type": "xpath",
         "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -150,6 +142,10 @@
         "type": "id",
         "value": "optionsRadios5"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -171,7 +167,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "setElementText",
@@ -179,7 +175,7 @@
         "type": "id",
         "value": "login-username-input"
       },
-      "text": "kapil@panalinks.com"
+      "text": "demo@panalinks.com"
     },
     {
       "type": "setElementText",
@@ -204,7 +200,32 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@class='page-sidebar-menu']/li[4]/a/span"
+        "value": "//div[@class='optionbg']/ul/li[2]/a"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='optionbg']/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='optionbg']/ul/li[1]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#dashboard-report-range > i.fa.fa-angle-down"
       }
     },
     {
@@ -215,56 +236,84 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//li[@class='start']/a/span"
+        "value": "//div[@class='ranges']//li[.='Custom Range']"
       }
     },
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
-        "type": "name",
-        "value": "check1"
+        "type": "css selector",
+        "value": "th.prev.available"
       }
     },
     {
-      "type": "setElementNotSelected",
+      "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@class='customChartsLegend']/span[2]/div/span/input"
+        "type": "css selector",
+        "value": "th.prev.available"
       }
     },
     {
-      "type": "setElementNotSelected",
+      "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@class='customChartsLegend']/span[3]/div/span/input"
+        "type": "css selector",
+        "value": "th.prev.available"
       }
     },
     {
-      "type": "setElementNotSelected",
+      "type": "clickElement",
       "locator": {
-        "type": "name",
-        "value": "check1"
+        "type": "css selector",
+        "value": "th.prev.available"
       }
     },
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@class='customChartsLegend']/span[2]/div/span/input"
+        "type": "css selector",
+        "value": "th.prev.available"
       }
     },
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@class='customChartsLegend']/span[3]/div/span/input"
+        "type": "css selector",
+        "value": "th.prev.available"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "th.prev.available"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "th.prev.available"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "th.prev.available"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "th.prev.available"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@class='page-sidebar-menu']/li[4]/a/span"
+        "value": "//div[7]/div[1]/div/table/tbody/tr[2]/td[2]"
       }
     },
     {
@@ -274,8 +323,50 @@
     {
       "type": "clickElement",
       "locator": {
+        "type": "css selector",
+        "value": "div.calendar.right > div.calendar-date > table.table-condensed > thead > tr > th.prev.available"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.calendar.right > div.calendar-date > table.table-condensed > thead > tr > th.prev.available"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.calendar.right > div.calendar-date > table.table-condensed > thead > tr > th.prev.available"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.calendar.right > div.calendar-date > table.table-condensed > thead > tr > th.prev.available"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.calendar.right > div.calendar-date > table.table-condensed > thead > tr > th.prev.available"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
         "type": "xpath",
-        "value": "//table[@id='sample_1']/tbody/tr[2]/td[1]/a/img"
+        "value": "//div[7]/div[2]/div/table/tbody/tr[6]/td[3]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='range_inputs']//button[.='Apply']"
       }
     },
     {
@@ -286,7 +377,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//li[@id='tab2']/a"
+        "value": "//div[@class='optionbg']/ul/li[2]/a"
       }
     },
     {
@@ -297,7 +388,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//li[@id='tab3']/a"
+        "value": "//div[@class='optionbg']/ul/li[3]/a"
       }
     },
     {
@@ -307,30 +398,56 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//li[@id='tab4']/a"
+        "type": "css selector",
+        "value": "a.pointer.BarChartNOI > img"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//li[@id='tab5']/a"
+        "value": "//div[@class='optionbg']/ul/li[2]/a"
       }
     },
     {
       "type": "pause",
       "waitTime": "2000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Jul (US $979)"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Aug (US $1,092)"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
         "value": "//li[@class='start']/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='header-inner']/ul/li[2]/a/span[1]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "logout-link"
       }
     }
   ],
