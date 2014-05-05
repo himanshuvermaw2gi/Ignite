@@ -5,7 +5,7 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://integration.investorportal.com/"
+      "url": "https://integration.investorportal.com/"
     },
     {
       "type": "pause",
