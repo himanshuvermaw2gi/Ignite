@@ -5,7 +5,7 @@
   "steps": [
     {
       "type": "get",
-      "url": "https://integration.investorportal.com/"
+      "url": "http://dev.investorportal.com/investorportal/"
     },
     {
       "type": "pause",
@@ -175,7 +175,7 @@
         "type": "id",
         "value": "login-username-input"
       },
-      "text": "demo@panalinks.com"
+      "text": "kapil@panalinks.com"
     },
     {
       "type": "setElementText",
