@@ -413,14 +413,7 @@
       "type": "pause",
       "waitTime": "2000"
     },
-    {
-      "type": "verifyTextPresent",
-      "text": "Jul (US $979)"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Aug (US $1,092)"
-    },
+    
     {
       "type": "clickElement",
       "locator": {
