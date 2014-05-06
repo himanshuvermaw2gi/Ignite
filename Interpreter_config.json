@@ -9,8 +9,8 @@
             "port": 80
           },
           "browserOptions":  {
-            "browserName": "firefox",
-            "browserVersion": "21",
+            "browserName": "IE",
+            "browserVersion": "10",
             "username": "homeunion",
             "accessKey": "0633edc0-ef99-4445-9bf5-093c125a2a34",
             "os"       : "windows 7"
