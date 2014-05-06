@@ -187,8 +187,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "li.start > a > span.title"
+        "type": "xpath",
+        "value": "//li[@class='start']/a"
       }
     },
     {
