@@ -198,12 +198,20 @@
         "value": "div.subhead_title"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
     {
       "type": "mouseOverElement",
       "locator": {
         "type": "css selector",
         "value": "div.col-md-12 > div.row > div.col-md-6"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "mouseOverElement",
@@ -212,6 +220,10 @@
         "value": "//div[@class='plan-header']/div/div[2]"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
     {
       "type": "mouseOverElement",
       "locator": {
@@ -219,12 +231,20 @@
         "value": "div.col-md-12 > div.row > div.col-md-6"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
     {
       "type": "mouseOverElement",
       "locator": {
         "type": "xpath",
         "value": "//div[@class='header-wrapper']/div[1]"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "mouseOverElement",
