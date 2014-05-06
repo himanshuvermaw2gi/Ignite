@@ -9,7 +9,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "300"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -50,14 +50,14 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lbl_ques7_tab"
+        "value": "lbl_ques6_tab"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#uniform-optionsRadios7 > span > input[name=\"optionsRadio2\"]"
+        "type": "name",
+        "value": "optionsRadio2"
       }
     },
     {
@@ -104,7 +104,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "setElementText",
@@ -125,14 +125,14 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lbl_ques15_tab"
+        "value": "lbl_ques16_tab"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "optionsRadios4"
+        "value": "optionsRadios5"
       }
     },
     {
@@ -144,18 +144,18 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//a[@id='login-link']/span"
+        "type": "id",
+        "value": "login-link"
       }
     },
     {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "setElementText",
@@ -188,7 +188,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//li[@class='start']/a"
+        "value": "//ul[@class='page-sidebar-menu']/li[7]/a/span"
       }
     },
     {
@@ -199,7 +199,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@class='optionbg']/ul/li[2]/a"
+        "value": "//ul[@id='evCabinet']//a[.='Current Homes']"
       }
     },
     {
@@ -210,73 +210,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@class='optionbg']/ul/li[3]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "1000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='optionbg']/ul/li[4]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "100"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='optionbg']/ul/li[1]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "verifyElementValue",
-      "locator": {
-        "type": "id",
-        "value": "inv_amount"
-      },
-      "value": "$150,000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#uniform-optionsRadios6 > span"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "optionsRadios6"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='plan-header']/div/div[2]/div[3]/div/label[3]"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='margin_top_09']//button[normalize-space(.)='Recalculate']"
+        "value": "//ul[@id='evCabinet']//a[.='Personal Documents']"
       }
     },
     {
@@ -284,12 +218,33 @@
       "waitTime": "2000"
     },
     {
-      "type": "verifyTextPresent",
-      "text": "INVESTMENT"
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@class='start']/a/span"
+      }
     },
     {
-      "type": "verifyTextPresent",
-      "text": "5 Year Wealth Projection"
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='header-inner']/ul/li[2]/a/span[1]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "logout-link"
+      }
     }
   ],
   "data": {

@@ -9,7 +9,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "300"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -24,6 +24,10 @@
         "type": "id",
         "value": "optionsRadios5"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -47,31 +51,39 @@
       }
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lbl_ques7_tab"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#uniform-optionsRadios7 > span > input[name=\"optionsRadio2\"]"
-      }
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lbl_ques10_tab"
+        "value": "lbl_ques6_tab"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#uniform-optionsRadios5 > span > input[name=\"optionsRadio3\"]"
+        "type": "name",
+        "value": "optionsRadio2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lbl_ques9_tab"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "name",
+        "value": "optionsRadio3"
       }
     },
     {
@@ -84,16 +96,20 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "lbl_ques13_tab"
+        "type": "css selector",
+        "value": "#lbl_ques14_tab > #uniform-optionsRadios5 > span"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "optionsRadios5"
+        "type": "css selector",
+        "value": "#optionsRadios5"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -122,17 +138,21 @@
       }
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lbl_ques15_tab"
-      }
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "optionsRadios4"
+        "value": "lbl_ques18_tab"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#optionsRadios5"
       }
     },
     {
@@ -149,13 +169,13 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//a[@id='login-link']/span"
+        "type": "id",
+        "value": "login-link"
       }
     },
     {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "setElementText",
@@ -182,7 +202,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -215,7 +235,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "1000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -226,57 +246,13 @@
     },
     {
       "type": "pause",
-      "waitTime": "100"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='optionbg']/ul/li[1]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "verifyElementValue",
-      "locator": {
-        "type": "id",
-        "value": "inv_amount"
-      },
-      "value": "$150,000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "#uniform-optionsRadios6 > span"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "optionsRadios6"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='plan-header']/div/div[2]/div[3]/div/label[3]"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='margin_top_09']//button[normalize-space(.)='Recalculate']"
+        "value": "a.property.pointer > img"
       }
     },
     {
@@ -284,12 +260,105 @@
       "waitTime": "2000"
     },
     {
-      "type": "verifyTextPresent",
-      "text": "INVESTMENT"
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@id='tab2']/a"
+      }
     },
     {
-      "type": "verifyTextPresent",
-      "text": "5 Year Wealth Projection"
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@id='tab3']/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@id='tab4']/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@id='tab5']/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@class='start']/a/span"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='page-sidebar-menu']/li[4]/a/span"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='bottom_chart_class']/div[2]/span[1]/div/span/input"
+      }
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='bottom_chart_class']/div[2]/span[2]/div/span/input"
+      }
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='bottom_chart_class']/div[2]/span[3]/div/span/input"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='bottom_chart_class']/div[2]/span[3]/div/span/input"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='bottom_chart_class']/div[2]/span[2]/div/span/input"
+      }
     }
   ],
   "data": {
