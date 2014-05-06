@@ -182,13 +182,13 @@
     },
     {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "9000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Browse"
+        "type": "css selector",
+        "value": "li.start > a > span.title"
       }
     },
     {
