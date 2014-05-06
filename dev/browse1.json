@@ -5,11 +5,11 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://dev.investorportal.com/investorportal/"
+      "url": "70.183.20.58/investorportal"
     },
     {
       "type": "pause",
-      "waitTime": "300"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
