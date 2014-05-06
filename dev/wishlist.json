@@ -5,7 +5,7 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://dev.investorportal.com/investorportal/"
+      "url": "http://192.168.10.13"
     },
     {
       "type": "pause",
@@ -170,7 +170,7 @@
         "type": "id",
         "value": "login-username-input"
       },
-      "text": "kapil@panalinks.com"
+      "text": "demo@panalinks.com"
     },
     {
       "type": "setElementText",
