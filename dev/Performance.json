@@ -175,7 +175,7 @@
         "type": "id",
         "value": "login-username-input"
       },
-      "text": "kapil@panalinks.com"
+      "text": "demo@panalinks.com"
     },
     {
       "type": "setElementText",
@@ -194,7 +194,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
