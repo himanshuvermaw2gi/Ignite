@@ -182,13 +182,13 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[4]/div/div[1]/div/ul/li[3]/a"
+        "type": "link text",
+        "value": "Browse"
       }
     },
     {
