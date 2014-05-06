@@ -5,7 +5,7 @@
   "steps": [
     {
       "type": "get",
-      "url": "70.183.20.58/investorportal"
+      "url": "192.168.10.13"
     },
     {
       "type": "pause",
