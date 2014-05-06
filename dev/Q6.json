@@ -196,10 +196,11 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//form[@id='login-form']/div[5]/button"
+        "type": "id",
+        "value": "login-btn"
       }
     },
+
     {
       "type": "pause",
       "waitTime": "3000"
