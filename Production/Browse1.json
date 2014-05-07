@@ -1,0 +1,300 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://investor.homeunion.com"
+    },
+    {
+      "type": "pause",
+      "waitTime": "300"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lbl_ques2_tab"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "optionsRadios5"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lbl_ques4_tab"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "name",
+        "value": "optionsRadio1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lbl_ques7_tab"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#uniform-optionsRadios7 > span > input[name=\"optionsRadio2\"]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lbl_ques10_tab"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#uniform-optionsRadios5 > span > input[name=\"optionsRadio3\"]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lbl_ques13_tab"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "optionsRadios5"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "invest-amount"
+      },
+      "text": "$150,000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lbl_ques15_tab"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "optionsRadios4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//a[@id='login-link']/span"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "login-username-input"
+      },
+      "text": "demo@panalinks.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "login-password-input"
+      },
+      "text": "123456"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "login-btn"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@class='start']/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='optionbg']/ul/li[2]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='optionbg']/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "1000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='optionbg']/ul/li[4]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "100"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='optionbg']/ul/li[1]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "verifyElementValue",
+      "locator": {
+        "type": "id",
+        "value": "inv_amount"
+      },
+      "value": "$150,000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#uniform-optionsRadios6 > span"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "optionsRadios6"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='plan-header']/div/div[2]/div[3]/div/label[3]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='margin_top_09']//button[normalize-space(.)='Recalculate']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "INVESTMENT"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "5 Year Wealth Projection"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
