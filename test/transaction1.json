@@ -293,6 +293,11 @@
         "value": "//div[@id='tab_10_2']/div/span/i"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -300,6 +305,11 @@
         "value": "//div[@class='page-content']/div/div[3]/div[2]/div/div/div[1]/button[2]"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -307,6 +317,11 @@
         "value": "//div[@class='page-content']/div/div[3]/div[2]/div/div/div[1]/ul/li[2]/a"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -314,6 +329,11 @@
         "value": "//div[@class='page-content']/div/div[3]/div[2]/div/div/div[1]/button[2]"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -321,6 +341,11 @@
         "value": "//div[@class='page-content']/div/div[3]/div[2]/div/div/div[1]/ul/li[3]/a"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -328,6 +353,11 @@
         "value": "//div[@class='page-content']/div/div[3]/div[2]/div/div/div[1]/button[2]"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
