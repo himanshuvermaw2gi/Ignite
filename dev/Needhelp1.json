@@ -14,20 +14,6 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "lbl_ques2_tab"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "optionsRadios5"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
         "type": "xpath",
         "value": "//li[@id='header_task_bar']/a/span[3]"
       }

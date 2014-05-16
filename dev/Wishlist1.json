@@ -14,148 +14,6 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "html.no-js"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lbl_ques2_tab"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "optionsRadios5"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lbl_ques4_tab"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "name",
-        "value": "optionsRadio1"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lbl_ques6_tab"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "name",
-        "value": "optionsRadio2"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lbl_ques9_tab"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "name",
-        "value": "optionsRadio3"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lbl_ques13_tab"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "optionsRadios5"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "invest-amount"
-      },
-      "text": "$100000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lbl_ques17_tab"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#optionsRadios5"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
         "type": "id",
         "value": "login-link"
       }
@@ -191,7 +49,7 @@
       "type": "pause",
       "waitTime": "3000"
     },
-   {
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
@@ -209,12 +67,10 @@
         "value": "//ul[@class='page-sidebar-menu']/li[7]/a/span"
       }
     },
-
     {
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -222,8 +78,7 @@
         "value": "//ul[@class='page-sidebar-menu']/li[4]/a"
       }
     },
-    
-   {
+    {
       "type": "setElementNotSelected",
       "locator": {
         "type": "name",
