@@ -5,11 +5,11 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://dev.investorportal.com/investorportal/"
+      "url": "http://192.168.10.13"
     },
     {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -20,7 +20,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "1000"
     },
     {
       "type": "setElementText",
@@ -28,7 +28,7 @@
         "type": "id",
         "value": "login-username-input"
       },
-      "text": "himanshu@panalinks.com"
+      "text": "demo@panalinks.com"
     },
     {
       "type": "setElementText",
@@ -37,6 +37,13 @@
         "value": "login-password-input"
       },
       "text": "123456"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "login-remember-input"
+      }
     },
     {
       "type": "clickElement",
@@ -53,18 +60,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@class='page-sidebar-menu']/li[7]/a/span"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//ul[@id='evCabinet']//a[.='Current Homes']"
+        "value": "//div[@class='page-content']/div/div[1]/div/div/div[2]/a[2]"
       }
     },
     {
@@ -74,8 +70,36 @@
     {
       "type": "clickElement",
       "locator": {
+        "type": "css selector",
+        "value": "p.font18 > a"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
         "type": "xpath",
-        "value": "//ul[@id='evCabinet']//a[.='Personal Documents']"
+        "value": "//div[@id='needhelp']//a[.='Leave a message']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='needhelp']//a[.='Live chat now']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#needhelp > div.modal-dialog.modal-sm > div.modal-content > div.modal-footer > button.btn.default"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='page-content']/div/div[1]/div/div/div[2]/a[1]"
       }
     },
     {
@@ -85,24 +109,16 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//li[@class='start']/a/span"
+        "type": "css selector",
+        "value": "#watchvideo > div.modal-dialog > div.modal-content > div.modal-footer > button.btn.default"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@class='header-inner']/ul/li[2]/a/span[1]"
+        "value": "//div[@class='header-inner']/ul/li[2]/a/span[2]"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "2000"
     },
     {
       "type": "clickElement",
