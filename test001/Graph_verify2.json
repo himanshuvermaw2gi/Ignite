@@ -204,13 +204,7 @@
         "value": "check1"
       }
     },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "name",
-        "value": "check"
-      }
-    },
+   
     
     {
       "type": "mouseOverElement",
