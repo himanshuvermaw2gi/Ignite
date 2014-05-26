@@ -103,13 +103,7 @@
       "type": "pause",
       "waitTime": "1000"
     },
-    {
-      "type": "setElementNotSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='bottom_chart_class1']/div[3]/div/span/input"
-      }
-    },
+   
     {
       "type": "setElementNotSelected",
       "locator": {
