@@ -64,7 +64,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@id='evCabinet']//a[.='Current Homes']"
+        "value": "//ul[@id='evCabinet']//a[.='Current Home']"
       }
     },
     {
