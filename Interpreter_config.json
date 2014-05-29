@@ -17,7 +17,7 @@
         }
       ],
       "scripts": [
-        "Integration/*"
+        "evault.json"
       ]
     }
   ]
