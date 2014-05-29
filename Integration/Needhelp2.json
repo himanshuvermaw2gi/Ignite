@@ -65,14 +65,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "p.font18 > a"
-      }
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
