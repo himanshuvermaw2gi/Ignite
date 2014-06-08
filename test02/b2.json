@@ -192,6 +192,17 @@
         "value": "//div[@class='margin_top_09']//button[normalize-space(.)='Recalculate']"
       }
     },
+     {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#notfound > div.modal-dialog.modal-sm > div.modal-content > div.modal-footer > button.btn.default"
+      }
+    },
+     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
     {
       "type": "clickElement",
       "locator": {
