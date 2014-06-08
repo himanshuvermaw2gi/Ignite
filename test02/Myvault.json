@@ -5,11 +5,11 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://192.168.10.13"
+      "url": "http://192.168.10.13/"
     },
     {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -25,13 +25,9 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//a[@id='login-link']/span"
+        "type": "id",
+        "value": "login-link"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "2000"
     },
     {
       "type": "setElementText",
@@ -52,6 +48,20 @@
     {
       "type": "clickElement",
       "locator": {
+        "type": "css selector",
+        "value": "#uniform-login-remember-input > span"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "login-remember-input"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
         "type": "id",
         "value": "login-btn"
       }
@@ -64,7 +74,14 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//li[@class='start']/a"
+        "value": "//ul[@class='page-sidebar-menu']//span[normalize-space(.)='myVault']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@id='evCabinet']//a[.='Current Home']"
       }
     },
     {
@@ -75,51 +92,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@class='optionbg']/ul/li[2]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='optionbg']/ul/li[3]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "1000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='optionbg']/ul/li[4]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "100"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='optionbg']/ul/li[1]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "optionsRadios6"
+        "value": "//ul[@id='evCabinet']//a[.='Personal Documents']"
       }
     },
     {
@@ -130,37 +103,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@class='margin_top_09']//button[normalize-space(.)='Recalculate']"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "INVESTMENT"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "5 Year Wealth Projection"
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='plan-header']/div/div[2]/div[4]/div/label[3]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='margin_top_09']//button[normalize-space(.)='Recalculate']"
+        "value": "//ul[@id='evCabinet']//a[.='Investment']"
       }
     },
     {
@@ -171,35 +114,29 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "#notfound > div.modal-dialog.modal-sm > div.modal-content > div.modal-footer > button.btn.default"
+        "value": "#fo7a3ad8-163c-4285-92c6-a71d6c18750a > span.title"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@id='fod5efba-cc9e-4e53-a58a-d306fafcee7a']/span[3]"
       }
     },
     {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
-      "type": "clickElement",
+      "type": "setElementText",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@class='plan-header']/div/div[2]/div[4]/div/label[1]"
-      }
+        "type": "name",
+        "value": "newfoldername"
+      },
+      "text": "test01"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='margin_top_09']//button[normalize-space(.)='Recalculate']"
-      }
-    },
-     {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#notfound > div.modal-dialog.modal-sm > div.modal-content > div.modal-footer > button.btn.default"
-      }
-    },
-     {
       "type": "pause",
       "waitTime": "2000"
     },
@@ -207,14 +144,84 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "#uniform-optionsRadios5 > span"
+        "value": "#evCreate"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "optionsRadios5"
+        "type": "xpath",
+        "value": "//li[@id='foaddcbf-e70a-4b3e-a56c-c885ddf3233c']/span[3]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "newfoldername"
+      },
+      "text": "photos01"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#evCreate"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@id='fo35159b-6db1-43af-8035-5f644f8c57c7']/span[3]"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "newfoldername"
+      },
+      "text": "MR01"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#evCreate"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "CURRENT HOME"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@id='fo196842-4ff1-47f9-9f91-8d725e5bcd0e']/span[1]"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "newfoldername"
+      },
+      "text": "testa01"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#evCreate"
       }
     },
     {
@@ -225,14 +232,55 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@class='plan-header']/div/div[2]/div[4]/div/label[2]"
+        "value": "//ul[@id='evCabinet']//a[.='Personal Documents']"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@class='margin_top_09']//button[normalize-space(.)='Recalculate']"
+        "value": "//li[@id='fo713f92-a87f-4f57-ad7f-6242fb354323']/span[1]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "1500"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "newfoldername"
+      },
+      "text": "test03"
+    },
+    {
+      "type": "pause",
+      "waitTime": "1500"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='evCreate']//button[.='Create']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='col-md-12']//a[normalize-space(.)='Watch Tutorial']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#watchvideo > div.modal-dialog > div.modal-content > div.modal-footer > button.btn.default"
       }
     },
     {
@@ -243,25 +291,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@class='plan-header']/div/div[2]/div[4]/div/label[3]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='margin_top_09']//button[normalize-space(.)='Recalculate']"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='header-inner']/ul/li[2]/a/span[1]"
+        "value": "//div[@class='header-inner']/ul/li[2]/a/span[2]"
       }
     },
     {
