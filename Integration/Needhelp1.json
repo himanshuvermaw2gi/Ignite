@@ -14,6 +14,17 @@
     {
       "type": "clickElement",
       "locator": {
+        "type": "link text",
+        "value": "Get Started"
+      }
+    },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
         "type": "xpath",
         "value": "//li[@id='header_task_bar']/a/span[3]"
       }
