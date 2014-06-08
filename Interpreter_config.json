@@ -17,7 +17,7 @@
         }
       ],
       "scripts": [
-        "test02/*"
+        "Intergation/*"
       ]
     }
   ]
