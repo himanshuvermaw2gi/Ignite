@@ -9,7 +9,7 @@
             "port": 80
           },
           "browserOptions":  {
-            "browserName": "Chrome",
+            "browserName": "Firefox",
             "username": "homeunion",
             "accessKey": "0633edc0-ef99-4445-9bf5-093c125a2a34",
             "os"       : "Windows 8.1"
