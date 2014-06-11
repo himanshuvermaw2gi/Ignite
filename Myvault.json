@@ -112,9 +112,26 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
-    
+     {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='fo2aed77-db72-4567-82ac-bfa803ac44b7']/span[2]"
+      }
+    },
+      {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+     {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='fo25fc50-a337-406f-aba6-30824999ba02']/span[3]"
+      }
+    },
     {
       "type": "setElementText",
       "locator": {
