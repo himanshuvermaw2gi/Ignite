@@ -1,0 +1,297 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://192.168.10.13/"
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Get Started"
+      }
+    },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "login-link"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "login-username-input"
+      },
+      "text": "demo@panalinks.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "login-password-input"
+      },
+      "text": "123456"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#uniform-login-remember-input > span"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "login-remember-input"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "login-btn"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "6000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='page-sidebar-menu']//span[normalize-space(.)='myVault']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "6000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='evCabinet']/li[2]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='evCabinet']/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='evCabinet']/li[1]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "newfoldername"
+      },
+      "text": "test01"
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#evCreate"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@id='foaddcbf-e70a-4b3e-a56c-c885ddf3233c']/span[3]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "newfoldername"
+      },
+      "text": "photos01"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#evCreate"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@id='fo35159b-6db1-43af-8035-5f644f8c57c7']/span[3]"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "newfoldername"
+      },
+      "text": "MR01"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#evCreate"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "CURRENT HOME"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@id='fo196842-4ff1-47f9-9f91-8d725e5bcd0e']/span[1]"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "newfoldername"
+      },
+      "text": "testa01"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#evCreate"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@id='evCabinet']//a[.='Personal Documents']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@id='fo713f92-a87f-4f57-ad7f-6242fb354323']/span[1]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "1500"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "newfoldername"
+      },
+      "text": "test03"
+    },
+    {
+      "type": "pause",
+      "waitTime": "1500"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='evCreate']//button[.='Create']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='col-md-12']//a[normalize-space(.)='Watch Tutorial']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#watchvideo > div.modal-dialog > div.modal-content > div.modal-footer > button.btn.default"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='header-inner']/ul/li[2]/a/span[2]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "logout-link"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
