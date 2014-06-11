@@ -142,13 +142,13 @@
     },
     {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#evCreate"
+        "type": "xpath",
+        "value": "//*[@id='evCreate']"
       }
     },
     {
