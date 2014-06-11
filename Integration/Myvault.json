@@ -81,7 +81,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@id='evCabinet']//a[.='Current Home']"
+        "value": "//*[@id='evCabinet']/li[2]/a"
       }
     },
     {
@@ -92,7 +92,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@id='evCabinet']//a[.='Personal Documents']"
+        "value": "//*[@id='evCabinet']/li[3]/a"
       }
     },
     {
@@ -103,7 +103,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@id='evCabinet']//a[.='Investment']"
+        "value": "//*[@id='evCabinet']/li[1]/a"
       }
     },
     {
