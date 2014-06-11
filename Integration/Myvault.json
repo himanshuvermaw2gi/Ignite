@@ -114,24 +114,7 @@
       "type": "pause",
       "waitTime": "3000"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#fo7a3ad8-163c-4285-92c6-a71d6c18750a > span.title"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//li[@id='fod5efba-cc9e-4e53-a58a-d306fafcee7a']/span[3]"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
+    
     {
       "type": "setElementText",
       "locator": {
