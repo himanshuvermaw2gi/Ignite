@@ -152,16 +152,32 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//li[@id='foaddcbf-e70a-4b3e-a56c-c885ddf3233c']/span[3]"
+        "value": "//*[@id='fo168ecf-c6d2-4dc6-b11d-8aec2c94758f']/span[2]"
+      }
+    },
+     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+     {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='fo168ecf-c6d2-4dc6-b11d-8aec2c94758f']/span[3]"
       }
     },
     {
       "type": "pause",
       "waitTime": "2000"
     },
+    
     {
       "type": "setElementText",
       "locator": {
@@ -176,6 +192,10 @@
         "type": "css selector",
         "value": "#evCreate"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
