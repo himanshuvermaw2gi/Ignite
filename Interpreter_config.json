@@ -17,7 +17,7 @@
         }
       ],
       "scripts": [
-        "Myvault.json"
+        "Integration/*"
       ]
     }
   ]
