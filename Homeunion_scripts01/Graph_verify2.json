@@ -266,5 +266,6 @@
     "configs": {},
     "source": "none"
   },
-  "inputs": []
+  "inputs": [],
+  "timeoutSeconds": 60
 }
