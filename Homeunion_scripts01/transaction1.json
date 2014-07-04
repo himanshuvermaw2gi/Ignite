@@ -122,14 +122,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "i.fa.fa-times-circle"
-      }
+      "waitTime": "6000"
     },
     {
       "type": "clickElement",
@@ -206,5 +199,6 @@
     "configs": {},
     "source": "none"
   },
-  "inputs": []
+  "inputs": [],
+  "timeoutSeconds": 60
 }
