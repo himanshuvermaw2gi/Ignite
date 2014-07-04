@@ -11,20 +11,23 @@
       "type": "pause",
       "waitTime": "4000"
     },
-{
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
         "value": "//div[@class='intro-inner']/a"
       }
     },
-
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "login-link"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "setElementText",
@@ -57,7 +60,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@class='page-sidebar-menu']/li[4]/a"
+        "value": "//ul[@class='page-sidebar-menu']/li[3]/a"
       }
     },
     {
@@ -278,5 +281,6 @@
     "configs": {},
     "source": "none"
   },
-  "inputs": []
+  "inputs": [],
+  "timeoutSeconds": 60
 }
