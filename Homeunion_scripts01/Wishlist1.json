@@ -11,14 +11,13 @@
       "type": "pause",
       "waitTime": "5000"
     },
-{
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
         "value": "//div[@class='intro-inner']/a"
       }
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -72,7 +71,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@class='page-sidebar-menu']/li[7]/a/span"
+        "value": "//ul[@class='page-sidebar-menu']/li[6]/a/span"
       }
     },
     {
@@ -83,7 +82,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@class='page-sidebar-menu']/li[4]/a"
+        "value": "//ul[@class='page-sidebar-menu']/li[3]/a"
       }
     },
     {
@@ -175,5 +174,6 @@
     "configs": {},
     "source": "none"
   },
-  "inputs": []
+  "inputs": [],
+  "timeoutSeconds": 60
 }
