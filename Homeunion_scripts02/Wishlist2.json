@@ -1,0 +1,255 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://192.168.10.13/"
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='intro-inner']/a"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "login-link"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "login-username-input"
+      },
+      "text": "demo@panalinks.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "login-password-input"
+      },
+      "text": "123456"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#uniform-login-remember-input > span"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "login-remember-input"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "login-btn"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='page-sidebar-menu']/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "img.selected_spec.marg_top58"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='sample_wishlist']/tbody/tr[1]/td[1]/a"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@id='tab2']/a"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@id='tab3']/a"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@id='tab4']/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "css selector",
+        "value": "td > input[type=\"checkbox\"]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "css selector",
+        "value": "td > input[type=\"checkbox\"]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='neighborhood']/tbody/tr[2]/td/input"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='neighborhood']/tbody/tr[2]/td/input"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='neighborhood']/tbody/tr[3]/td/input"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='neighborhood']/tbody/tr[3]/td/input"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='neighborhood']/tbody/tr[4]/td/input"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='neighborhood']/tbody/tr[4]/td/input"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='neighborhood']/tbody/tr[5]/td/input"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='neighborhood']/tbody/tr[5]/td/input"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='neighborhood']/tbody/tr[6]/td/input"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='neighborhood']/tbody/tr[6]/td/input"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@id='tab5']/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='property-detail-header']//div[.='NEXT PROPERTY ']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "7000"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
