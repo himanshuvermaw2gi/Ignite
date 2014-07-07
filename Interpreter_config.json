@@ -9,15 +9,15 @@
             "port": 80
           },
           "browserOptions":  {
-            "browserName": "firefox",
+            "browserName": "IE",
             "username": "homeunion",
             "accessKey": "0633edc0-ef99-4445-9bf5-093c125a2a34",
-            "os"       : "Mavericks"
+            "os"       : "Windows 7"
           }
         }
       ],
       "scripts": [
-        "Homeunion_scripts03/*"
+        "Homeunion_scripts02/*"
       ]
     }
   ]
