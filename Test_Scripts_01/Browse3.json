@@ -32,13 +32,13 @@
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "15000"
     },
     {
-      "type": "clickElement",
+      "type": "setElememtSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@class='customChartsLegend']/span[1]/div/span/input"
+        "value": "//div[4]/div/div[2]/div/div[3]/div/div[2]/div[3]/div/div/div/div/div/div/div[2]/span[1]/div/span/input"
       }
     },
      {
