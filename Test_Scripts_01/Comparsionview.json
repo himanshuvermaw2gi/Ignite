@@ -133,6 +133,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
@@ -140,11 +144,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
         "value": "//table[@id='compare-item']/thead[1]/tr/td[1]/div/label[2]/div/span/input"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -155,7 +167,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "1000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
