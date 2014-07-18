@@ -104,8 +104,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "optionsRadios6"
+        "type": "xpath",
+        "value": "//*[@id='uniform-optionsRadios6']"
       }
     },
     {
