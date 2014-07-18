@@ -167,18 +167,15 @@
         "value": "//div[@class='margin_top_09']//button[normalize-space(.)='Recalculate']"
       }
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#uniform-optionsRadios5 > span"
-      }
+     {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "optionsRadios5"
+        "type": "xpath",
+        "value": "//*[@id='uniform-optionsRadios5']"
       }
     },
     {
@@ -191,6 +188,10 @@
         "type": "xpath",
         "value": "//div[@class='plan-header']/div/div[2]/div[4]/div/label[2]"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
