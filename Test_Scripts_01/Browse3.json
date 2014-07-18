@@ -18,6 +18,10 @@
         "value": "//div[@class='intro-inner']/a"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
     {
       "type": "clickElement",
       "locator": {
@@ -25,12 +29,9 @@
         "value": "//div[@class='optionbg']/ul/li[5]/a/img"
       }
     },
-    {
-      "type": "setElementNotSelected",
-      "locator": {
-        "type": "css selector",
-        "value": "span.checked > input[name=\"check1\"]"
-      }
+     {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "setElementNotSelected",
@@ -38,6 +39,21 @@
         "type": "css selector",
         "value": "span.checked > input[name=\"check1\"]"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "css selector",
+        "value": "span.checked > input[name=\"check1\"]"
+      }
+    },
+     {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "setElementSelected",
@@ -46,12 +62,20 @@
         "value": "//div[@class='customChartsLegend']/span[3]/div/span/input"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
         "value": "//div[@class='customChartsLegend']/span[2]/div/span/input"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "1500"
     },
     {
       "type": "setElementSelected",
