@@ -37,8 +37,8 @@
     {
       "type": "setElementNotSelected",
       "locator": {
-        "type": "css selector",
-        "value": "span.checked > input[name=\"check1\"]"
+        "type": "xpath",
+        "value": "//*[@id='map']/div/div/div/div/div/div/div[2]/span[2]/div/span/input"
       }
     },
      {
@@ -48,8 +48,8 @@
     {
       "type": "setElementNotSelected",
       "locator": {
-        "type": "css selector",
-        "value": "span.checked > input[name=\"check1\"]"
+        "type": "xpath",
+        "value": "//*[@id='map']/div/div/div/div/div/div/div[2]/span[3]/div/span/input"
       }
     },
      {
