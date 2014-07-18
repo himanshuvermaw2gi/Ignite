@@ -19,6 +19,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
@@ -87,7 +91,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "1000"
     },
     {
       "type": "clickElement",
@@ -98,9 +102,19 @@
     },
     {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "1000"
     },
-    
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='optionbg']/ul/li[1]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
     {
       "type": "clickElement",
       "locator": {
@@ -110,7 +124,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -121,7 +135,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "2000"
     },
     {
       "type": "verifyTextPresent",
@@ -133,7 +147,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -151,7 +165,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -167,10 +181,7 @@
         "value": "//div[@class='margin_top_09']//button[normalize-space(.)='Recalculate']"
       }
     },
-     {
-      "type": "pause",
-      "waitTime": "2000"
-    },
+   
     {
       "type": "clickElement",
       "locator": {
@@ -189,10 +200,6 @@
         "value": "//div[@class='plan-header']/div/div[2]/div[4]/div/label[2]"
       }
     },
-     {
-      "type": "pause",
-      "waitTime": "2000"
-    },
     {
       "type": "clickElement",
       "locator": {
@@ -211,6 +218,11 @@
         "value": "//div[@class='plan-header']/div/div[2]/div[4]/div/label[3]"
       }
     },
+   {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
