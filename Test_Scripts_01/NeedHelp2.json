@@ -27,7 +27,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "1000"
+      "waitTime": "3000"
     },
     {
       "type": "setElementText",
