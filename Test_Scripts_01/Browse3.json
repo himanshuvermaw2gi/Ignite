@@ -18,18 +18,7 @@
         "value": "//div[@class='intro-inner']/a"
       }
     },
-     {
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='optionbg']/ul/li[5]/a/img"
-      }
-    },
-     {
+         {
       "type": "pause",
       "waitTime": "3000"
     },
