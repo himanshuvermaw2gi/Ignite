@@ -35,10 +35,10 @@
       "waitTime": "4000"
     },
     {
-      "type": "setElementNotSelected",
+      "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='map']/div/div/div/div/div/div/div[2]/span[1]/div/span/input"
+        "value": "//div[@class='customChartsLegend']/span[1]/div/span/input"
       }
     },
      {
@@ -46,7 +46,7 @@
       "waitTime": "2000"
     },
     {
-      "type": "setElementNotSelected",
+      "type": "clickElement",
       "locator": {
         "type": "xpath",
         "value": "//*[@id='map']/div/div/div/div/div/div/div[2]/span[2]/div/span/input"
@@ -57,7 +57,7 @@
       "waitTime": "2000"
     },
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
         "type": "xpath",
         "value": "//div[@class='customChartsLegend']/span[3]/div/span/input"
