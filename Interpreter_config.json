@@ -17,7 +17,7 @@
         }
       ],
       "scripts": [
-        "Test_Scripts_01/*"
+        "Test_Scripts_02/*"
       ]
     }
   ]
