@@ -1,11 +1,4 @@
 language: java
-before_script:
-     - "npm install -g se-interpreter"
-script:
-     - "se-interpreter Interpreter_config.json"
 jdk:
   - openjdk7
 
-sauce_connect:
-    username: "homeunion"
-    secure: "0633edc0-ef99-4445-9bf5-093c125a2a34"
