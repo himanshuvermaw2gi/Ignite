@@ -1,7 +1,10 @@
 language: java
-
+before_script:
+     - "npm install -g se-interpreter"
 script:
-     - "Interpreter_config.json"
+     - "se-interpreter Interpreter_config.json"
+jdk:
+  - openjdk7
 
 sauce_connect:
     username: "homeunion"
