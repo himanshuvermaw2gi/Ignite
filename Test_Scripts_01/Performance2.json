@@ -3,6 +3,8 @@
   "seleniumVersion": "2",
   "formatVersion": 2,
   "steps": [
+    
+     var i = null;
     {
       "type": "get",
       "url": "http://192.168.10.13/"
@@ -77,7 +79,7 @@
       "type": "pause",
       "waitTime": "4000"
     },
-    var i = null;
+   
 
      if(i==1) 
      {
