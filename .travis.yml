@@ -1,4 +1,10 @@
-language: java
-jdk:
-  - openjdk7
+language: node_js
+before_script:
+     - "npm install -g se-interpreter"
+script:
+     - "se-interpreter Interpreter_config.json"
+
+browserstack_connect:
+    username: "homeunion"
+    secure: "0633edc0-ef99-4445-9bf5-093c125a2a34"
 
