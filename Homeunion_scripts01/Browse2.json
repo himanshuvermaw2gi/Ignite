@@ -41,6 +41,10 @@
       },
       "text": "demo@panalinks.com"
     },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
     {
       "type": "setElementText",
       "locator": {
@@ -48,6 +52,10 @@
         "value": "login-password-input"
       },
       "text": "123456"
+    },
+     {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
