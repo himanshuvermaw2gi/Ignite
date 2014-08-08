@@ -27,7 +27,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "5000"
     },
     {
       "type": "setElementText",
@@ -38,6 +38,10 @@
       "text": "demo@panalinks.com"
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -46,15 +50,19 @@
       "text": "123456"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "login-btn"
-      }
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='login-btn']"
+      }
+    },
+   {
       "type": "pause",
-      "waitTime": "10000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
