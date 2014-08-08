@@ -60,7 +60,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//li[@class='start']/a"
+        "value": "/html/body/div[4]/div/div[1]/div/ul/li[2]/a/span"
       }
     },
     {
