@@ -89,7 +89,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='needhelp']//a[.='Live chat now']"
+        "value": "html/body/div[4]/div/div[2]/div/div/div[1]/div/div/div[2]/a[2]"
       }
     },
     {
@@ -99,27 +99,13 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#needhelp > div.modal-dialog.modal-sm > div.modal-content > div.modal-footer > button.btn.default"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
         "type": "xpath",
-        "value": "//div[@class='page-content']/div/div[1]/div/div/div[2]/a[1]"
+        "value": "//div[@id='needhelp']//a[.='Live chat now']"
       }
     },
     {
       "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#watchvideo > div.modal-dialog > div.modal-content > div.modal-footer > button.btn.default"
-      }
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
