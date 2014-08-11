@@ -9,7 +9,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "7000"
     },
     {
       "type": "clickElement",
@@ -81,7 +81,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//li[@id='fo994155-20b2-4254-9385-d45a5d629849']/span[3]/i"
+        "value": "//*[@id='fo528494-381e-4063-b53e-0cccf790e3ee']/span[1]"
       }
     },
     {
@@ -92,18 +92,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//li[@id='fo994155-20b2-4254-9385-d45a5d629849']/span[3]/i"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "2500"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#fo994155-20b2-4254-9385-d45a5d629849 > span.title"
+        "value": "//*[@id='fo6e9669-8704-41b3-9a70-af92d26ad79a']/span[1]"
       }
     },
     {
@@ -114,21 +103,25 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//li[@id='fo994155-20b2-4254-9385-d45a5d629849']/span[3]/i"
+        "value": "//*[@id='fo7640fa-6edb-4281-8732-1c5d9c3b20b0']/span[1]"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//li[@id='fo2aed77-db72-4567-82ac-bfa803ac44b7']/span[3]/i"
+        "value": "//*[@id='fof57da2-f8be-40f5-80e8-f83f43c8b9a3']/span[1]"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "7000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//li[@id='tab2']/a"
+        "value": "//*[@id='evCabinet']/li[2]/a"
       }
     },
     {
@@ -139,7 +132,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//li[@id='tab3']/a"
+        "value": "//*[@id='evCabinet']/li[3]/a"
       }
     },
     {
@@ -150,23 +143,23 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//li[@id='tab4']/a"
+        "value": "//*[@id='evCabinet']/li[1]/a"
       }
     },
     {
       "type": "pause",
-      "waitTime": "2500"
+      "waitTime": "7000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//li[@id='tab5']/a"
+        "value": "//li[@id='fo2115e1-7844-4f6c-bad6-0351d6b67536']/span[3]/i"
       }
     },
     {
       "type": "pause",
-      "waitTime": "2500"
+      "waitTime": "7000"
     },
     {
       "type": "clickElement",
