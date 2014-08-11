@@ -89,11 +89,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "1500"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//table[@id='sample_wishlist']/tbody/tr[1]/td[1]/a"
+        "value": "//*[@id='sample_wishlist']/tbody[2]/tr[1]/td[1]/a"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "1500"
     },
     {
       "type": "clickElement",
@@ -103,11 +111,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
         "value": "//li[@id='tab3']/a"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
