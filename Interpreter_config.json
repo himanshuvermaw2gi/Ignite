@@ -17,7 +17,7 @@
         }
       ],
       "scripts": [
-        "Production_scripts_02/*"
+        "Production_scripts_03/*"
       ]
     }
   ]
