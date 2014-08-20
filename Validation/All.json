@@ -1,0 +1,372 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://investor.homeunion.com/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "button.close.close_modal"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "login-link"
+      }
+    },
+    {
+      "type": "waitForTextPresent",
+      "text": "Login to your account"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "login-username-input"
+      },
+      "text": "demo@panalinks.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "login-password-input"
+      },
+      "text": "123456"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "login-btn"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Browse"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "link text",
+        "value": "Browse"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "link text",
+        "value": "Wishlist"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "link text",
+        "value": "Transactions"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "link text",
+        "value": "Performance"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "link text",
+        "value": "myVault"
+      }
+    },
+    {
+      "type": "waitForTextPresent",
+      "text": "Welcome"
+    },
+    {
+      "type": "waitForTextPresent",
+      "text": "Properties shown with financing"
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "link text",
+        "value": "OPTION 1"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "link text",
+        "value": "OPTION 2"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "link text",
+        "value": "OPTION 3"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "link text",
+        "value": "SEE PROPERTY LIST"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "WATCH TUTORIAL"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "edit_link"
+      }
+    },
+    {
+      "type": "waitForTextPresent",
+      "text": "How this page works?"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#watchvideo > div.modal-dialog > div.modal-content > div.modal-body"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#watchvideo > div.modal-dialog > div.modal-content > div.modal-footer > button.btn.default"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "NEED HELP?"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "1-866-732-3220"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "cashflow@homeunion.com"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Leave a message"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "NEED HELP?"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Live chat now"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='plan-header']/div/div[2]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='header-wrapper']/div[1]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "5 Year Wealth Projection"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#needhelp > div.modal-dialog.modal-sm > div.modal-content > div.modal-footer > button.btn.default"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Click here to view details"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "STREET VIEW"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='map-canvas']/div/div[1]/div[2]"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "svg"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "NEIGHBORHOOD"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='map-places']/div/div[1]/div[2]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "container"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Major Employers"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Banks/ ATMs"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Malls"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "School"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Hospitals"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Restaurants"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Radius"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div[title=\"Click to set the map to Home\"] > div > b"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#map-places > div.gm-style > #maptype > div.gm-style-mtc > div[title=\"Show satellite imagery\"]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#map-places > div.gm-style > #maptype > div.gm-style-mtc > div[title=\"Show street map\"]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='map-places']/div/div[10]/div[1]/div[2]/div/span"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='map-places']/div/div[10]/div[1]/div[2]/div/span/div/img"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#map-places > div.gm-style > #maptype > div.gm-style-mtc > div[title=\"Show satellite imagery\"]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='map-places']/div/div[10]/div[2]/div[2]/div[2]/span/div/img"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "tab5"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "CITY INFO"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Property Investment Zone Details"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "General Facts"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Cost of Living & General Market"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
