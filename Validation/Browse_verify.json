@@ -5,7 +5,7 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://192.168.10.13/"
+      "url": "https://investor.homeunion.com"
     },
      {
       "type": "pause",
