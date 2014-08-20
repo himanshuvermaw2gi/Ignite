@@ -7,12 +7,21 @@
       "type": "get",
       "url": "http://192.168.10.13/"
     },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
         "value": "//div[@class='intro-inner']/a"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "verifyTextPresent",
@@ -28,6 +37,10 @@
         "type": "xpath",
         "value": "//div[@class='optionbg']/ul/li[5]/a/img"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "setElementSelected",
@@ -51,6 +64,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -71,6 +88,10 @@
         "type": "xpath",
         "value": "//div[@class='table-responsive']/table/thead/tr/th[3]/span[1]"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "verifyTextPresent",
@@ -117,11 +138,19 @@
       "text": "Portfolio"
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "verifyElementPresent",
       "locator": {
         "type": "xpath",
         "value": "//div[@class='plan-result']/div/div[2]/div[2]/img"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "verifyTextPresent",
