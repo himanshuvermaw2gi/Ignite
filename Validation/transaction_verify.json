@@ -1,0 +1,237 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://192.168.10.13/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='intro-inner']/a"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "login-link"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "login-username-input"
+      },
+      "text": "demo@panalinks.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "login-password-input"
+      },
+      "text": "123456"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "login-btn"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='page-sidebar-menu']/li[4]/a/span"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "7000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Total Transaction Progress"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Transaction Setup"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Agreement & Earnest Deposit"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Loan Processing"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Renovation Inspection"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Tenant Marketing"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "HUD & Closing"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Transaction Setup"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Renovation Inspection"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Agreement & Earnest Deposit"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Tenant Marketing"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Loan Processing"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "HUD & Closing"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Loan Application Completed"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Bank account setup Loan Docs"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Loan Docs Signed"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Final Funds Received"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Title Received"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Supplier Docs Received"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Terms & Rate Locked"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Appraisal Completed"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Ready for Close"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Tenant Selected"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Rental Agreement Signed"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Purchase Agreement Signed"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Assest Management Agreement Signed"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Assest Management Agreement Signed"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Earnest Money Deposit Received"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Pictures Ready"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Repairs Complete"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Inspection Complete"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Renovation Complete"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Loan Information"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Title Information"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "MY NEXT STEPS"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "HOMEUNION NEXT STEPS"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Due Date"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Action Item"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Item in Process"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "WATCH TUTORIAL"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "NEED HELP?"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
