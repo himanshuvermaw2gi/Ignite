@@ -1,0 +1,107 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://192.168.10.13/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Get Started"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "registersign_trig"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Sign Up to HomeUnion"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Register to view additional investment opportunities, property details and more. We take your privacy seriously and will not sell or share your information with anyone"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "First Name"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Last Name"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Phone Number"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Email Address"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Create Password"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Confirm Password"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "I agree to the Terms of Service and Privacy Policy"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "I would like to receive investment alerts and investment news via email."
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Already have an account? LOGIN"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Register"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Our algorithmic approach to market, neighborhood and property identification enable you to make smart buy/sell/hold decisions."
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Invest Easier"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "1-888-428-9482"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "info@homeunion.com"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Live Chat"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": ""
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Build Wealth"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
