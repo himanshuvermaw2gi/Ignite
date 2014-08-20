@@ -1,0 +1,137 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://192.168.10.13/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='intro-inner']/a"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "FINANCING"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "INVESTMENT"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='optionbg']/ul/li[5]/a/img"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "name",
+        "value": "check1"
+      }
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "css selector",
+        "value": "span.checked > input[name=\"check1\"]"
+      }
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "css selector",
+        "value": "span.checked > input[name=\"check1\"]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.bottom_chart_class > button.close"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "LOAN"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "ALL CASH"
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='table-responsive']/table/thead/tr/th[3]/span[1]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "OPTION 2"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "OPTION 3"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "SEE PROPERTY LIST"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "PROPERTY"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "PRICE"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "INVESTMENT"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "CASH FLOW"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "RETURN"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "APPRECIATION"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "ADD TO WISHLIST"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Portfolio"
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='plan-result']/div/div[2]/div[2]/img"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "REGISTER TO SEE MORE"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
