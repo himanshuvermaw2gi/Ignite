@@ -1,0 +1,109 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://192.168.10.13/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Get Started"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "login-link"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "login-username-input"
+      },
+      "text": "demo@panalinks.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "login-password-input"
+      },
+      "text": "123456"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#login-btn"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "8000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "INVESTMENT SUMMARY"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "INCOME AND EXPENSES"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "NET OPERATING INCOME"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.ShowISChart"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "NEED HELP?"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "WATCH TUTORIAL"
+    },
+    {
+      "type": "pause",
+      "waitTime": "8000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "ESTIMATED VALUE"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "PURCHASE PRICE"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "*Net operating income is exclusive of P&I and any applicable income taxes"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "All Properties"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
