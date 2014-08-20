@@ -5,7 +5,7 @@
   "steps": [
     {
       "type": "get",
-      "url": "https://investors.homeunion.com"
+      "url": "https://investor.homeunion.com"
     },
     {
       "type": "pause",
