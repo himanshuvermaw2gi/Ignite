@@ -60,7 +60,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@class='page-sidebar-menu']/li[6]/a"
+        "value": "//ul[@class='page-sidebar-menu']//span[normalize-space(.)='myVault']"
       }
     },
     {
