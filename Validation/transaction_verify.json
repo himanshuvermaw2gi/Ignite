@@ -224,6 +224,10 @@
       "text": "WATCH TUTORIAL"
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "verifyTextPresent",
       "text": "NEED HELP?"
     }
