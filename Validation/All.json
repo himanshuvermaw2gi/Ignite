@@ -351,6 +351,10 @@
       }
     },
     {
+"type": "pause",
+"waitTime": "7000"
+},
+    {
       "type": "verifyTextPresent",
       "text": "Property Investment Zone Details"
     },
