@@ -8,6 +8,10 @@
       "url": "https://investor.homeunion.com"
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
@@ -66,6 +70,10 @@
     {
       "type": "verifyTextPresent",
       "text": "Total Transaction Progress"
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "verifyTextPresent",
