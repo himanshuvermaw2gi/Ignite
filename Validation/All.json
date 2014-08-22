@@ -8,6 +8,11 @@
       "url": "https://investor.homeunion.com/"
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -21,6 +26,11 @@
         "value": "login-link"
       }
     },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "waitForTextPresent",
       "text": "Login to your account"
@@ -49,6 +59,11 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
       "type": "clickElement",
       "locator": {
         "type": "link text",
@@ -56,12 +71,22 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
       "type": "verifyElementPresent",
       "locator": {
         "type": "link text",
         "value": "Browse"
       }
     },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "verifyElementPresent",
       "locator": {
@@ -70,6 +95,11 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
       "type": "verifyElementPresent",
       "locator": {
         "type": "link text",
@@ -77,12 +107,22 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
       "type": "verifyElementPresent",
       "locator": {
         "type": "link text",
         "value": "Performance"
       }
     },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "verifyElementPresent",
       "locator": {
@@ -106,6 +146,11 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
       "type": "verifyElementPresent",
       "locator": {
         "type": "link text",
@@ -120,6 +165,11 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
       "type": "verifyElementPresent",
       "locator": {
         "type": "link text",
@@ -127,9 +177,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
       "type": "verifyTextPresent",
       "text": "WATCH TUTORIAL"
     },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -138,9 +198,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
       "type": "waitForTextPresent",
       "text": "How this page works?"
     },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -148,6 +218,11 @@
         "value": "#watchvideo > div.modal-dialog > div.modal-content > div.modal-body"
       }
     },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -162,6 +237,11 @@
         "value": "NEED HELP?"
       }
     },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "verifyTextPresent",
       "text": "1-866-732-3220"
@@ -182,9 +262,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
       "type": "verifyTextPresent",
       "text": "Live chat now"
     },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -200,6 +290,11 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
       "type": "verifyTextPresent",
       "text": "5 Year Wealth Projection"
     },
@@ -210,6 +305,11 @@
         "value": "#needhelp > div.modal-dialog.modal-sm > div.modal-content > div.modal-footer > button.btn.default"
       }
     },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -225,6 +325,11 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
       "type": "verifyElementPresent",
       "locator": {
         "type": "xpath",
@@ -238,6 +343,11 @@
         "value": "svg"
       }
     },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -253,6 +363,11 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -264,13 +379,28 @@
       "text": "Major Employers"
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
       "type": "verifyTextPresent",
       "text": "Banks/ ATMs"
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
       "type": "verifyTextPresent",
       "text": "Malls"
     },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "verifyTextPresent",
       "text": "School"
@@ -279,6 +409,11 @@
       "type": "verifyTextPresent",
       "text": "Hospitals"
     },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "verifyTextPresent",
       "text": "Restaurants"
@@ -301,6 +436,11 @@
         "value": "#map-places > div.gm-style > #maptype > div.gm-style-mtc > div[title=\"Show satellite imagery\"]"
       }
     },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
