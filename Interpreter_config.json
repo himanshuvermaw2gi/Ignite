@@ -19,7 +19,7 @@
       ],
       "scripts": [
         "Production_scripts_02/transaction1.json",
-        "Production_scripts_02/wishlist1.json",
+        "Production_scripts_02/wishlist1.json"
       ]
     }
   ]
