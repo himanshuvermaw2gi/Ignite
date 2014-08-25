@@ -18,7 +18,7 @@
         }
       ],
       "scripts": [
-        "Production_scripts_02/Property_detail.json"
+        "Production_scripts_02/evault.json"
       ]
     }
   ]
