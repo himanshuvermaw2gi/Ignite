@@ -11,7 +11,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -30,7 +29,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "waitForTextPresent",
       "text": "Login to your account"
@@ -43,6 +41,11 @@
       },
       "text": "demo@panalinks.com"
     },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "setElementText",
       "locator": {
@@ -62,7 +65,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -74,7 +76,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "verifyElementPresent",
       "locator": {
@@ -86,7 +87,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "verifyElementPresent",
       "locator": {
@@ -98,7 +98,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "verifyElementPresent",
       "locator": {
@@ -110,7 +109,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "verifyElementPresent",
       "locator": {
@@ -122,7 +120,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "verifyElementPresent",
       "locator": {
@@ -149,7 +146,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "verifyElementPresent",
       "locator": {
@@ -168,7 +164,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "verifyElementPresent",
       "locator": {
@@ -180,7 +175,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "verifyTextPresent",
       "text": "WATCH TUTORIAL"
@@ -189,7 +183,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -201,7 +194,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "waitForTextPresent",
       "text": "How this page works?"
@@ -210,7 +202,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -222,7 +213,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -241,7 +231,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "verifyTextPresent",
       "text": "1-866-732-3220"
@@ -265,7 +254,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "verifyTextPresent",
       "text": "Live chat now"
@@ -274,7 +262,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -293,7 +280,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "verifyTextPresent",
       "text": "5 Year Wealth Projection"
@@ -309,7 +295,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -328,7 +313,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "verifyElementPresent",
       "locator": {
@@ -347,12 +331,11 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "NEIGHBORHOOD"
+        "value": "LOCAL AREA"
       }
     },
     {
@@ -366,7 +349,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -382,7 +364,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "verifyTextPresent",
       "text": "Banks/ ATMs"
@@ -391,7 +372,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "verifyTextPresent",
       "text": "Malls"
@@ -400,7 +380,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "verifyTextPresent",
       "text": "School"
@@ -413,7 +392,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "verifyTextPresent",
       "text": "Restaurants"
@@ -430,51 +408,8 @@
       }
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#map-places > div.gm-style > #maptype > div.gm-style-mtc > div[title=\"Show satellite imagery\"]"
-      }
-    },
-    {
       "type": "pause",
       "waitTime": "3000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#map-places > div.gm-style > #maptype > div.gm-style-mtc > div[title=\"Show street map\"]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='map-places']/div/div[10]/div[1]/div[2]/div/span"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='map-places']/div/div[10]/div[1]/div[2]/div/span/div/img"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#map-places > div.gm-style > #maptype > div.gm-style-mtc > div[title=\"Show satellite imagery\"]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='map-places']/div/div[10]/div[2]/div[2]/div[2]/span/div/img"
-      }
     },
     {
       "type": "clickElement",
@@ -489,22 +424,6 @@
         "type": "link text",
         "value": "CITY INFO"
       }
-    },
-    {
-"type": "pause",
-"waitTime": "7000"
-},
-    {
-      "type": "verifyTextPresent",
-      "text": "Property Investment Zone Details"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "General Facts"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Cost of Living & General Market"
     }
   ],
   "data": {
