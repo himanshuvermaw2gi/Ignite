@@ -7,6 +7,11 @@
       "type": "get",
       "url": "https://investor.homeunion.com"
     },
+      {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -33,6 +38,11 @@
       },
       "text": "demo@panalinks.com"
     },
+      {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
     {
       "type": "setElementText",
       "locator": {
