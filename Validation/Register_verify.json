@@ -7,6 +7,11 @@
       "type": "get",
       "url": "https://investor.homeunion.com"
     },
+   {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -14,16 +19,17 @@
         "value": "Get Started"
       }
     },
+{
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "registersign_trig"
       }
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Sign Up to HomeUnion"
     },
     {
       "type": "verifyTextPresent",
