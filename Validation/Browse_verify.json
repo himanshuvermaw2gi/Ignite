@@ -7,11 +7,10 @@
       "type": "get",
       "url": "https://investor.homeunion.com"
     },
-     {
+    {
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
