@@ -38,6 +38,10 @@
       "text": "demo@panalinks.com"
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
