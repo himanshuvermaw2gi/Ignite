@@ -37,6 +37,11 @@
       },
       "text": "demo@panalinks.com"
     },
+      {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
     {
       "type": "setElementText",
       "locator": {
@@ -126,10 +131,6 @@
     {
       "type": "verifyTextPresent",
       "text": "Loan Application Completed"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Bank account setup Loan Docs"
     },
     {
       "type": "verifyTextPresent",
