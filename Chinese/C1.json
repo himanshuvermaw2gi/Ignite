@@ -29,12 +29,20 @@
         "value": "//div[2]/div[3]/div/div[2]/div/div[3]/div/div[2]/div[3]/div/div/div/div/div/div/div[2]/span[1]/div/span/input"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "5000"
+    },
     {
       "type": "setElementNotSelected",
       "locator": {
         "type": "xpath",
         "value": "//div[2]/div[3]/div/div[2]/div/div[3]/div/div[2]/div[3]/div/div/div/div/div/div/div[2]/span[1]/div/span/input"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "5000"
     },
     {
       "type": "setElementNotSelected",
@@ -43,12 +51,20 @@
         "value": "span.checked > input[name=\"check1\"]"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "5000"
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
         "value": "div.bottom_chart_class > button.close"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -59,7 +75,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "9000"
     },
     {
       "type": "clickElement",
