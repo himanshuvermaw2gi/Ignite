@@ -66,28 +66,7 @@
       "type": "pause",
       "waitTime": "5000"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='optionbg']/ul/li[2]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "9000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='registerdetails']//button[normalize-space(.)='å¥½']"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
+    
     {
       "type": "clickElement",
       "locator": {
