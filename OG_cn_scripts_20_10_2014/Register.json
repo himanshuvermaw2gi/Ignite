@@ -1,0 +1,82 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://cn-investor.homeunion.com/"
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='intro-inner']/a"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='plan-header']//a[.=' 请注册来看到更多']"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "名字"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "姓"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "电话号码"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "电邮地址"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "建立密码"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "确认密码"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "我同意接受 使用条款 及 隐私政策"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "我希望通过电子邮件收到投资提醒和投资新闻。"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "已经有一个帐户了吗？ 登入"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "在 HomeUnion 网上注册"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='registersign']/div/div/div/div/button"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
