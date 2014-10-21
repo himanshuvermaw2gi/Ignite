@@ -9,7 +9,7 @@
             "port": 80
           },
           "browserOptions":  {
-            "browserName": "Internet Explorer",
+            "browserName": "Firefox",
             "username": "himanshuverma",
             "accessKey": "eda5a7cc-ff62-4b62-9d2a-d78d54d582de",
             "os"       : "Windows 7"
