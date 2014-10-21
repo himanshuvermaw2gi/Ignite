@@ -9,7 +9,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -20,7 +20,7 @@
     },
       {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
 
     {
@@ -29,7 +29,7 @@
     },
  {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
 
     {
@@ -38,7 +38,7 @@
     },
  {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
 
     {
@@ -47,7 +47,7 @@
     },
  {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
 
     {
@@ -56,7 +56,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
