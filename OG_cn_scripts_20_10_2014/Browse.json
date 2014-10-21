@@ -20,19 +20,19 @@
     },
     {
       "type": "verifyTextPresent",
-      "text": "选项 1"
+      "text": "é€‰é¡¹ 1"
     },
     {
       "type": "verifyTextPresent",
-      "text": "选项 2"
+      "text": "é€‰é¡¹ 2"
     },
     {
       "type": "verifyTextPresent",
-      "text": "选项 3"
+      "text": "é€‰é¡¹ 3"
     },
     {
       "type": "verifyTextPresent",
-      "text": "查看房地产名单"
+      "text": "æŸ¥çœ‹æˆ¿åœ°äº§åå•"
     },
     {
       "type": "pause",
@@ -225,7 +225,7 @@
     },
     {
       "type": "verifyTextPresent",
-      "text": "加入愿望清单"
+      "text": "åŠ å…¥æ„¿æœ›æ¸…å•"
     },
     {
       "type": "clickElement",
@@ -235,10 +235,6 @@
       }
     },
     {
-      "type": "pause",
-     "waitTime": "3000"
-    },
-    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
@@ -246,38 +242,8 @@
       }
     },
     {
-"type": "pause",
-"waitTime": "3000"
-},
-    
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#needhelp > div.modal-dialog.modal-sm > div.modal-content > div.modal-footer > button.btn.default"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[2]/div[3]/div/div[2]/div/div[1]/div/div[1]/div/div/div[2]/a[1]"
-      }
-    },
-    {
       "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#watchvideo > div.modal-dialog > div.modal-content > div.modal-footer > button.btn.default"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
