@@ -249,17 +249,7 @@
 "type": "pause",
 "waitTime": "3000"
 },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[2]/div[3]/div/div[2]/div/div[1]/div/div[1]/div/div/div[2]/a[2]"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
+    
     {
       "type": "clickElement",
       "locator": {
