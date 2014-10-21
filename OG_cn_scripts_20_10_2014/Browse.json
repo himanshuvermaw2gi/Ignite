@@ -18,18 +18,38 @@
         "value": "//div[@class='intro-inner']/a"
       }
     },
+      {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "verifyTextPresent",
       "text": "é€‰é¡¹ 1"
     },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "verifyTextPresent",
       "text": "é€‰é¡¹ 2"
     },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "verifyTextPresent",
       "text": "é€‰é¡¹ 3"
     },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "verifyTextPresent",
       "text": "æŸ¥çœ‹æˆ¿åœ°äº§åå•"
