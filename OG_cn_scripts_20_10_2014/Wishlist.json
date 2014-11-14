@@ -83,7 +83,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "9000"
     },
     {
       "type": "clickElement",
