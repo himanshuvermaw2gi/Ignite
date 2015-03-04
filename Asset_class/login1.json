@@ -335,8 +335,16 @@
         "value": "recalculate"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
     {
       "type": "acceptAlert"
+    },
+     {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
