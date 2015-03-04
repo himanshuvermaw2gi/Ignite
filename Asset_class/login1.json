@@ -431,44 +431,7 @@
       "waitTime": "4000"
     },
     
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Nashville-Income"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "property-tab"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "overview-tab"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "BACK"
-      }
-    },
-    {
-      "type": "acceptAlert"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "recalculate"
-      }
-    },
+  
     {
       "type": "clickElement",
       "locator": {
