@@ -1,0 +1,319 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://investor.homeunion.com/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='cover-container']/div/div[2]/div/div[2]/label"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "optionsRadios2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Next"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Next"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='col-sm-24']/div/label[2]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "build_portfolio"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "open_portfolio_tool"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "open_login_modal"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "login-username-input"
+      },
+      "text": "demo@homeunion.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "login-password-input"
+      },
+      "text": "123456"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "label.sm-label"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "login-remember-input"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "login-btn"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Portfolio Builder"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Property Search"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Property Search"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Enter your criteria below to identify matching investment properties. You can then add properties to your Wish List."
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Any"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Dallas"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Nashville"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Austin"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Houston"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "San Antonio"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Chicago"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Indianapolis"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Cleveland"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Minneapolis"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "RENTAL ECONOMY"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "LOCATION"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Financial Services"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Defense"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Healthcare"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Energy"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Technology"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "INVESTMENT AMOUNT"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "INVESTMENT GOAL"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "FINANCING"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='header-inner']/ul/li[2]/a/span[1]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "logout-link"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "open_login_modal"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "login-username-input"
+      },
+      "text": "demo@panalinks.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "login-password-input"
+      },
+      "text": "123456"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "label.sm-label"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "login-remember-input"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "login-btn"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='page-sidebar-menu']/li[3]/a"
+      }
+    },
+    {
+      "type": "doubleClickElement",
+      "locator": {
+        "type": "link text",
+        "value": "See Comparison View"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='compare-item']/thead[1]/tr/td[1]/div/div[2]/label"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "optionsRadios4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.pull-right.slide-arrow-next  > img"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "span.fa.fa-angle-down"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "logout-link"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
