@@ -1,0 +1,295 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://investor.homeunion.com/"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "What is your real estate investment goal?"
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "img.img-responsive"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Income"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Growth"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Balanced"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "I donâ€™t know"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Next"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Next"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "My initial investment in real estate would be around"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Back Next"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "$25K$500K00$100K"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Login"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Register"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Next"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "My financing preference is"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Financed"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "All Cash"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Back Build My Portfolio"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "build_portfolio"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Based on your answers, here is a median HomeUnion Property Portfolio"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "YOUR RECOMMENDED PORTFOLIO"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Try our portfolio building tool"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Create Your Account"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Get started on the road to confident real estate investing. Create an account to:"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "View in-depth financial and neighborhood information"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Compare properties and investment locations"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Build your own diversified portfolio"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "PROPERTY CLASSES"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "TOTAL PROPERTIES "
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "PORTFOLIO VALUE "
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "INVESTMENT AMOUNT "
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "ANNUAL YIELD "
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "APPRECIATION "
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "PROPERTY"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "PROPERTY CLASS"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "INVESTMENT"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "PRICE"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "YIELD"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "APPRECIATION"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "All Return, Cashflow, and Appreciation data are projections. Please see the disclaimer below."
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Indianapolis-Income"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "PORTFOLIO COMPOSITION"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Median List Price"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Median Rent"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Median Yield"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Median Appreciation"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "PORTFOLIO"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "INCOME"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "BALANCED"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "GROWTH"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "HIGH"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "MEDIUM"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "LOW"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Property Price"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Investment Goal"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "View All Properties"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "PRICE RANGE"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "CASH INVESTMENT RANGE "
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "CASH YIELD RANGE "
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "APPRECIATION RANGE "
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "FINANCED INVESTMENT RANGE "
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "FINANCED YIELD RANGE "
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "UNEMPLOYMENT "
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "RENTER RATIO "
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "BACK"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
