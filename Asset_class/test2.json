@@ -1,0 +1,463 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://investor.homeunion.com/"
+    },
+    {
+      "type": "pause",
+      "waitTime": "7000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[2]/div[4]/div/div/div/div/div/div/div[2]/div/div[2]/label"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "optionsRadios2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Next"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Next"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='col-sm-24']/div/label[2]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "15000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "build_portfolio"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.class_details_link"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "BACK"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "open_login_modal"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "login-username-input"
+      },
+      "text": "apu@testinvestorportal.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "login-password-input"
+      },
+      "text": "123456"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "label.sm-label"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "login-remember-input"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "login-btn"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Performance"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Investment summary"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Income and Expenses"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Net Operating Income"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "TOTAL INVESTMENT"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Based on comparable home values in your neighborhoods"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "ESTIMATED VALUE"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "PURCHASE PRICE"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Gross Rental Income"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Expense and Fees"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Net Operating Income*"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Annualized Yield"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "*Net operating income is exclusive of P&I and any applicable income taxes"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='default-main']/div/div[1]/div/div/div[2]/div[1]/div/div[1]/button[2]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='default-main']/div/div[1]/div/div/div[2]/div[1]/div/div[1]/ul/li[2]/a"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='default-main']/div/div[1]/div/div/div[2]/div[1]/div/div[1]/button[2]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "All Properties"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='dashboard-report-range']/i[2]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='ranges']//li[.='Custom Range']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "th.prev.available"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "th.prev.available"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "th.prev.available"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "th.prev.available"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "th.prev.available"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "th.prev.available"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[4]/div[1]/div/table/tbody/tr[2]/td[2]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='range_inputs']//button[.='Apply']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Income and Expenses"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Net Operating Income"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "15000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.pointer.BarChartNOI > img"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Investment summary"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//td[@class='bg-white']/div[1]/a/img"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Street View"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Financial Details"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Neighborhood"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Local Area"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "City Info"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Local Area"
+      }
+    },
+    {
+      "type": "doubleClickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Major Employers"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Major Employers"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Hospitals"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Shopping Malls"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Restaurants"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Banks/ATMs"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Neighborhood"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Distribution of Rents in Neighborhood"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Households"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "My Rent:"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Median Rent:"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Household Rent Affordability"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Household Income Range"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='header-inner']/ul/li[2]/a/span[1]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "logout-link"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
