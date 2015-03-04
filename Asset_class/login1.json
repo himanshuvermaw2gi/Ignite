@@ -56,11 +56,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "14000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "link text",
         "value": "Portfolio Builder"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -70,11 +78,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "setElementSelected",
       "locator": {
         "type": "id",
         "value": "hil_checkbox2"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -84,6 +100,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -91,7 +111,15 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "acceptAlert"
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -99,6 +127,10 @@
         "type": "xpath",
         "value": "//div[@id='hil_div']//label[.='Chicago']"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "setElementSelected",
