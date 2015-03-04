@@ -339,19 +339,17 @@
       "type": "pause",
       "waitTime": "4000"
     },
-    {
-      "type": "acceptAlert"
-    },
-     {
-      "type": "pause",
-      "waitTime": "4000"
-    },
+    
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
         "value": "//div[@id='hil_div']//label[.='Minneapolis']"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "setElementNotSelected",
@@ -375,11 +373,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "recalculate"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -410,11 +416,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "recalculate"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "acceptAlert"
